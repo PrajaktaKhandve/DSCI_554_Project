@@ -1,19 +1,49 @@
 import { hot } from 'react-hot-loader/root';
 import React from 'react';
-import logo from '../logo.svg';
+import { 
+  Route,
+  Link,
+  Switch
+} from 'react-router-dom'; 
 import './App.css';
-import Route from '../routes/index';
+import Barchart from '../components/Barchart';
+import Map from '../components/Map';
+
+const Home = () => (
+  <div>
+    <h2>Home</h2>
+  </div>
+);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <div className='App-header'>
-        <h2>d3ia dashboard</h2>
-      </div>
-      </header>
-        <Route />
-    </div>
+      <div className="App"> 
+      <nav className="navbar navbar-light">
+      <ul className="nav navbar-nav"> 
+          <li> 
+            <Link to="/">Home</Link> 
+          </li> 
+          <li> 
+            <Link to="/bar-chart">Bar Chart</Link> 
+          </li> 
+          <li> 
+            <Link to="/map">Map</Link> 
+          </li> 
+        </ul> 
+      </nav>
+
+        <Switch> 
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/bar-chart">
+            <Barchart />
+          </Route>
+          <Route path="/map">
+            <Map />
+          </Route>
+        </Switch> 
+      </div> 
   );
 }
 
