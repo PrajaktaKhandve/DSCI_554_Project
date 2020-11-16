@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom'; 
 import './App.css';
 import Barchart from '../components/Barchart';
+import RegionDiag from '../components/RegionDiag';
 import Map from '../components/Map';
 
 const Home = () => (
@@ -29,6 +30,9 @@ function App() {
           <li> 
             <Link to="/map">Map</Link> 
           </li> 
+          <li> 
+            <Link to="/region">Region Wise</Link> 
+          </li> 
         </ul> 
       </nav>
 
@@ -41,6 +45,9 @@ function App() {
           </Route>
           <Route path="/map">
             <Map />
+          </Route>
+          <Route path="/region">
+            <RegionDiag />
           </Route>
         </Switch> 
       </div> 
