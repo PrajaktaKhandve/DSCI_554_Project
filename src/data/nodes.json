@@ -1,0 +1,2222 @@
+{
+    "January": {
+        "links": [
+            {
+                "month": "January2020",
+                "source": "NA",
+                "destination": "NA",
+                "count": 936477
+            },
+            {
+                "month": "January2020",
+                "source": "EU",
+                "destination": "EU",
+                "count": 335051
+            },
+            {
+                "month": "January2020",
+                "source": "AS",
+                "destination": "AS",
+                "count": 113668
+            },
+            {
+                "month": "January2020",
+                "source": "NA",
+                "destination": "EU",
+                "count": 12229
+            },
+            {
+                "month": "January2020",
+                "source": "NA",
+                "destination": "SA",
+                "count": 2706
+            },
+            {
+                "month": "January2020",
+                "source": "OC",
+                "destination": "OC",
+                "count": 62236
+            },
+            {
+                "month": "January2020",
+                "source": "AF",
+                "destination": "EU",
+                "count": 3599
+            },
+            {
+                "month": "January2020",
+                "source": "EU",
+                "destination": "AF",
+                "count": 2412
+            },
+            {
+                "month": "January2020",
+                "source": "EU",
+                "destination": "NA",
+                "count": 12698
+            },
+            {
+                "month": "January2020",
+                "source": "EU",
+                "destination": "AS",
+                "count": 17230
+            },
+            {
+                "month": "January2020",
+                "source": "NA",
+                "destination": "AF",
+                "count": 152
+            },
+            {
+                "month": "January2020",
+                "source": "SA",
+                "destination": "EU",
+                "count": 1217
+            },
+            {
+                "month": "January2020",
+                "source": "NA",
+                "destination": "AS",
+                "count": 4662
+            },
+            {
+                "month": "January2020",
+                "source": "NA",
+                "destination": "OC",
+                "count": 962
+            },
+            {
+                "month": "January2020",
+                "source": "EU",
+                "destination": "SA",
+                "count": 1241
+            },
+            {
+                "month": "January2020",
+                "source": "SA",
+                "destination": "SA",
+                "count": 14996
+            },
+            {
+                "month": "January2020",
+                "source": "AS",
+                "destination": "EU",
+                "count": 20511
+            },
+            {
+                "month": "January2020",
+                "source": "AS",
+                "destination": "OC",
+                "count": 3865
+            },
+            {
+                "month": "January2020",
+                "source": "AS",
+                "destination": "AF",
+                "count": 483
+            },
+            {
+                "month": "January2020",
+                "source": "AS",
+                "destination": "NA",
+                "count": 4777
+            },
+            {
+                "month": "January2020",
+                "source": "AF",
+                "destination": "NA",
+                "count": 132
+            },
+            {
+                "month": "January2020",
+                "source": "AF",
+                "destination": "AF",
+                "count": 2674
+            },
+            {
+                "month": "January2020",
+                "source": "AF",
+                "destination": "AS",
+                "count": 661
+            },
+            {
+                "month": "January2020",
+                "source": "AF",
+                "destination": "SA",
+                "count": 81
+            },
+            {
+                "month": "January2020",
+                "source": "SA",
+                "destination": "NA",
+                "count": 2737
+            },
+            {
+                "month": "January2020",
+                "source": "EU",
+                "destination": "OC",
+                "count": 25
+            },
+            {
+                "month": "January2020",
+                "source": "OC",
+                "destination": "NA",
+                "count": 939
+            },
+            {
+                "month": "January2020",
+                "source": "OC",
+                "destination": "AS",
+                "count": 3964
+            },
+            {
+                "month": "January2020",
+                "source": "SA",
+                "destination": "AS",
+                "count": 74
+            },
+            {
+                "month": "January2020",
+                "source": "AS",
+                "destination": "SA",
+                "count": 80
+            },
+            {
+                "month": "January2020",
+                "source": "OC",
+                "destination": "SA",
+                "count": 18
+            },
+            {
+                "month": "January2020",
+                "source": "SA",
+                "destination": "OC",
+                "count": 21
+            },
+            {
+                "month": "January2020",
+                "source": "SA",
+                "destination": "AF",
+                "count": 41
+            },
+            {
+                "month": "January2020",
+                "source": "OC",
+                "destination": "EU",
+                "count": 99
+            },
+            {
+                "month": "January2020",
+                "source": "AF",
+                "destination": "OC",
+                "count": 15
+            },
+            {
+                "month": "January2020",
+                "source": "OC",
+                "destination": "AF",
+                "count": 11
+            }
+        ],
+        "nodes": [
+            {
+                "month": "January2020",
+                "continent": "AS",
+                "covidcases": 9889
+            },
+            {
+                "month": "January2020",
+                "continent": "AF",
+                "covidcases": 0
+            },
+            {
+                "month": "January2020",
+                "continent": "NA",
+                "covidcases": 12
+            },
+            {
+                "month": "January2020",
+                "continent": "SA",
+                "covidcases": 0
+            },
+            {
+                "month": "January2020",
+                "continent": "EU",
+                "covidcases": null
+            },
+            {
+                "month": "January2020",
+                "continent": "OC",
+                "covidcases": 9
+            }
+        ]
+    },
+    "February": {
+        "links": [
+            {
+                "month": "February2020",
+                "source": "NA",
+                "destination": "NA",
+                "count": 977332
+            },
+            {
+                "month": "February2020",
+                "source": "NA",
+                "destination": "EU",
+                "count": 12717
+            },
+            {
+                "month": "February2020",
+                "source": "AF",
+                "destination": "AF",
+                "count": 3043
+            },
+            {
+                "month": "February2020",
+                "source": "AF",
+                "destination": "AS",
+                "count": 620
+            },
+            {
+                "month": "February2020",
+                "source": "AF",
+                "destination": "EU",
+                "count": 3672
+            },
+            {
+                "month": "February2020",
+                "source": "EU",
+                "destination": "EU",
+                "count": 351803
+            },
+            {
+                "month": "February2020",
+                "source": "OC",
+                "destination": "OC",
+                "count": 64666
+            },
+            {
+                "month": "February2020",
+                "source": "AS",
+                "destination": "AS",
+                "count": 99534
+            },
+            {
+                "month": "February2020",
+                "source": "EU",
+                "destination": "NA",
+                "count": 13111
+            },
+            {
+                "month": "February2020",
+                "source": "AS",
+                "destination": "OC",
+                "count": 3476
+            },
+            {
+                "month": "February2020",
+                "source": "NA",
+                "destination": "AF",
+                "count": 165
+            },
+            {
+                "month": "February2020",
+                "source": "SA",
+                "destination": "SA",
+                "count": 17465
+            },
+            {
+                "month": "February2020",
+                "source": "SA",
+                "destination": "NA",
+                "count": 2771
+            },
+            {
+                "month": "February2020",
+                "source": "SA",
+                "destination": "EU",
+                "count": 1635
+            },
+            {
+                "month": "February2020",
+                "source": "NA",
+                "destination": "AS",
+                "count": 4589
+            },
+            {
+                "month": "February2020",
+                "source": "NA",
+                "destination": "SA",
+                "count": 2725
+            },
+            {
+                "month": "February2020",
+                "source": "EU",
+                "destination": "AF",
+                "count": 2528
+            },
+            {
+                "month": "February2020",
+                "source": "EU",
+                "destination": "AS",
+                "count": 16799
+            },
+            {
+                "month": "February2020",
+                "source": "NA",
+                "destination": "OC",
+                "count": 891
+            },
+            {
+                "month": "February2020",
+                "source": "EU",
+                "destination": "SA",
+                "count": 1644
+            },
+            {
+                "month": "February2020",
+                "source": "EU",
+                "destination": "OC",
+                "count": 31
+            },
+            {
+                "month": "February2020",
+                "source": "OC",
+                "destination": "AS",
+                "count": 3645
+            },
+            {
+                "month": "February2020",
+                "source": "AF",
+                "destination": "NA",
+                "count": 148
+            },
+            {
+                "month": "February2020",
+                "source": "AS",
+                "destination": "EU",
+                "count": 18267
+            },
+            {
+                "month": "February2020",
+                "source": "SA",
+                "destination": "AF",
+                "count": 64
+            },
+            {
+                "month": "February2020",
+                "source": "AF",
+                "destination": "SA",
+                "count": 91
+            },
+            {
+                "month": "February2020",
+                "source": "AF",
+                "destination": "OC",
+                "count": 16
+            },
+            {
+                "month": "February2020",
+                "source": "AS",
+                "destination": "AF",
+                "count": 412
+            },
+            {
+                "month": "February2020",
+                "source": "AS",
+                "destination": "NA",
+                "count": 4389
+            },
+            {
+                "month": "February2020",
+                "source": "OC",
+                "destination": "NA",
+                "count": 872
+            },
+            {
+                "month": "February2020",
+                "source": "AS",
+                "destination": "SA",
+                "count": 107
+            },
+            {
+                "month": "February2020",
+                "source": "SA",
+                "destination": "AS",
+                "count": 91
+            },
+            {
+                "month": "February2020",
+                "source": "OC",
+                "destination": "EU",
+                "count": 69
+            },
+            {
+                "month": "February2020",
+                "source": "OC",
+                "destination": "SA",
+                "count": 23
+            },
+            {
+                "month": "February2020",
+                "source": "SA",
+                "destination": "OC",
+                "count": 29
+            },
+            {
+                "month": "February2020",
+                "source": "OC",
+                "destination": "AF",
+                "count": 8
+            }
+        ],
+        "nodes": [
+            {
+                "month": "February2020",
+                "continent": "AS",
+                "covidcases": 73831
+            },
+            {
+                "month": "February2020",
+                "continent": "AF",
+                "covidcases": 3
+            },
+            {
+                "month": "February2020",
+                "continent": "NA",
+                "covidcases": 37
+            },
+            {
+                "month": "February2020",
+                "continent": "SA",
+                "covidcases": 4
+            },
+            {
+                "month": "February2020",
+                "continent": "EU",
+                "covidcases": 1489
+            },
+            {
+                "month": "February2020",
+                "continent": "OC",
+                "covidcases": 18
+            }
+        ]
+    },
+    "March": {
+        "links": [
+            {
+                "month": "March2020",
+                "source": "NA",
+                "destination": "NA",
+                "count": 859757
+            },
+            {
+                "month": "March2020",
+                "source": "NA",
+                "destination": "EU",
+                "count": 10105
+            },
+            {
+                "month": "March2020",
+                "source": "EU",
+                "destination": "EU",
+                "count": 242460
+            },
+            {
+                "month": "March2020",
+                "source": "EU",
+                "destination": "AF",
+                "count": 1522
+            },
+            {
+                "month": "March2020",
+                "source": "EU",
+                "destination": "NA",
+                "count": 10002
+            },
+            {
+                "month": "March2020",
+                "source": "EU",
+                "destination": "AS",
+                "count": 13118
+            },
+            {
+                "month": "March2020",
+                "source": "EU",
+                "destination": "SA",
+                "count": 1142
+            },
+            {
+                "month": "March2020",
+                "source": "AS",
+                "destination": "AS",
+                "count": 65498
+            },
+            {
+                "month": "March2020",
+                "source": "OC",
+                "destination": "OC",
+                "count": 60111
+            },
+            {
+                "month": "March2020",
+                "source": "AF",
+                "destination": "EU",
+                "count": 2386
+            },
+            {
+                "month": "March2020",
+                "source": "AF",
+                "destination": "AS",
+                "count": 429
+            },
+            {
+                "month": "March2020",
+                "source": "NA",
+                "destination": "AS",
+                "count": 3963
+            },
+            {
+                "month": "March2020",
+                "source": "SA",
+                "destination": "SA",
+                "count": 12785
+            },
+            {
+                "month": "March2020",
+                "source": "AF",
+                "destination": "AF",
+                "count": 2512
+            },
+            {
+                "month": "March2020",
+                "source": "AF",
+                "destination": "NA",
+                "count": 126
+            },
+            {
+                "month": "March2020",
+                "source": "AF",
+                "destination": "SA",
+                "count": 71
+            },
+            {
+                "month": "March2020",
+                "source": "NA",
+                "destination": "OC",
+                "count": 761
+            },
+            {
+                "month": "March2020",
+                "source": "NA",
+                "destination": "SA",
+                "count": 1844
+            },
+            {
+                "month": "March2020",
+                "source": "OC",
+                "destination": "NA",
+                "count": 729
+            },
+            {
+                "month": "March2020",
+                "source": "AS",
+                "destination": "EU",
+                "count": 13092
+            },
+            {
+                "month": "March2020",
+                "source": "AS",
+                "destination": "NA",
+                "count": 3818
+            },
+            {
+                "month": "March2020",
+                "source": "AS",
+                "destination": "AF",
+                "count": 303
+            },
+            {
+                "month": "March2020",
+                "source": "SA",
+                "destination": "NA",
+                "count": 1936
+            },
+            {
+                "month": "March2020",
+                "source": "AS",
+                "destination": "OC",
+                "count": 2231
+            },
+            {
+                "month": "March2020",
+                "source": "OC",
+                "destination": "AS",
+                "count": 2532
+            },
+            {
+                "month": "March2020",
+                "source": "OC",
+                "destination": "EU",
+                "count": 71
+            },
+            {
+                "month": "March2020",
+                "source": "NA",
+                "destination": "AF",
+                "count": 137
+            },
+            {
+                "month": "March2020",
+                "source": "EU",
+                "destination": "OC",
+                "count": 49
+            },
+            {
+                "month": "March2020",
+                "source": "AS",
+                "destination": "SA",
+                "count": 79
+            },
+            {
+                "month": "March2020",
+                "source": "SA",
+                "destination": "EU",
+                "count": 1167
+            },
+            {
+                "month": "March2020",
+                "source": "AF",
+                "destination": "OC",
+                "count": 6
+            },
+            {
+                "month": "March2020",
+                "source": "SA",
+                "destination": "AF",
+                "count": 55
+            },
+            {
+                "month": "March2020",
+                "source": "SA",
+                "destination": "AS",
+                "count": 83
+            },
+            {
+                "month": "March2020",
+                "source": "OC",
+                "destination": "AF",
+                "count": 18
+            },
+            {
+                "month": "March2020",
+                "source": "OC",
+                "destination": "SA",
+                "count": 14
+            },
+            {
+                "month": "March2020",
+                "source": "SA",
+                "destination": "OC",
+                "count": 15
+            }
+        ],
+        "nodes": [
+            {
+                "month": "March2020",
+                "continent": "AS",
+                "covidcases": 90028
+            },
+            {
+                "month": "March2020",
+                "continent": "AF",
+                "covidcases": 5780
+            },
+            {
+                "month": "March2020",
+                "continent": "NA",
+                "covidcases": 205084
+            },
+            {
+                "month": "March2020",
+                "continent": "SA",
+                "covidcases": 14488
+            },
+            {
+                "month": "March2020",
+                "continent": "EU",
+                "covidcases": 478855
+            },
+            {
+                "month": "March2020",
+                "continent": "OC",
+                "covidcases": 5523
+            }
+        ]
+    },
+    "April": {
+        "links": [
+            {
+                "month": "April2020",
+                "source": "EU",
+                "destination": "EU",
+                "count": 53694
+            },
+            {
+                "month": "April2020",
+                "source": "NA",
+                "destination": "NA",
+                "count": 438295
+            },
+            {
+                "month": "April2020",
+                "source": "NA",
+                "destination": "EU",
+                "count": 2930
+            },
+            {
+                "month": "April2020",
+                "source": "AS",
+                "destination": "EU",
+                "count": 4688
+            },
+            {
+                "month": "April2020",
+                "source": "EU",
+                "destination": "AS",
+                "count": 4635
+            },
+            {
+                "month": "April2020",
+                "source": "NA",
+                "destination": "AS",
+                "count": 2559
+            },
+            {
+                "month": "April2020",
+                "source": "OC",
+                "destination": "OC",
+                "count": 19726
+            },
+            {
+                "month": "April2020",
+                "source": "AS",
+                "destination": "AS",
+                "count": 21193
+            },
+            {
+                "month": "April2020",
+                "source": "OC",
+                "destination": "AS",
+                "count": 953
+            },
+            {
+                "month": "April2020",
+                "source": "AS",
+                "destination": "NA",
+                "count": 2514
+            },
+            {
+                "month": "April2020",
+                "source": "EU",
+                "destination": "NA",
+                "count": 2650
+            },
+            {
+                "month": "April2020",
+                "source": "SA",
+                "destination": "SA",
+                "count": 2479
+            },
+            {
+                "month": "April2020",
+                "source": "AF",
+                "destination": "AF",
+                "count": 165
+            },
+            {
+                "month": "April2020",
+                "source": "AF",
+                "destination": "AS",
+                "count": 126
+            },
+            {
+                "month": "April2020",
+                "source": "OC",
+                "destination": "NA",
+                "count": 136
+            },
+            {
+                "month": "April2020",
+                "source": "AF",
+                "destination": "EU",
+                "count": 302
+            },
+            {
+                "month": "April2020",
+                "source": "EU",
+                "destination": "SA",
+                "count": 178
+            },
+            {
+                "month": "April2020",
+                "source": "NA",
+                "destination": "OC",
+                "count": 187
+            },
+            {
+                "month": "April2020",
+                "source": "EU",
+                "destination": "AF",
+                "count": 212
+            },
+            {
+                "month": "April2020",
+                "source": "AS",
+                "destination": "OC",
+                "count": 888
+            },
+            {
+                "month": "April2020",
+                "source": "NA",
+                "destination": "SA",
+                "count": 554
+            },
+            {
+                "month": "April2020",
+                "source": "AS",
+                "destination": "AF",
+                "count": 104
+            },
+            {
+                "month": "April2020",
+                "source": "AS",
+                "destination": "SA",
+                "count": 32
+            },
+            {
+                "month": "April2020",
+                "source": "SA",
+                "destination": "EU",
+                "count": 155
+            },
+            {
+                "month": "April2020",
+                "source": "AF",
+                "destination": "NA",
+                "count": 18
+            },
+            {
+                "month": "April2020",
+                "source": "OC",
+                "destination": "EU",
+                "count": 15
+            },
+            {
+                "month": "April2020",
+                "source": "NA",
+                "destination": "AF",
+                "count": 19
+            },
+            {
+                "month": "April2020",
+                "source": "SA",
+                "destination": "NA",
+                "count": 606
+            },
+            {
+                "month": "April2020",
+                "source": "SA",
+                "destination": "AF",
+                "count": 29
+            },
+            {
+                "month": "April2020",
+                "source": "SA",
+                "destination": "AS",
+                "count": 22
+            },
+            {
+                "month": "April2020",
+                "source": "AF",
+                "destination": "SA",
+                "count": 32
+            },
+            {
+                "month": "April2020",
+                "source": "OC",
+                "destination": "SA",
+                "count": 11
+            },
+            {
+                "month": "April2020",
+                "source": "SA",
+                "destination": "OC",
+                "count": 6
+            },
+            {
+                "month": "April2020",
+                "source": "EU",
+                "destination": "OC",
+                "count": 8
+            },
+            {
+                "month": "April2020",
+                "source": "AF",
+                "destination": "OC",
+                "count": 1
+            }
+        ],
+        "nodes": [
+            {
+                "month": "April2020",
+                "continent": "AS",
+                "covidcases": 229184
+            },
+            {
+                "month": "April2020",
+                "continent": "AF",
+                "covidcases": 33052
+            },
+            {
+                "month": "April2020",
+                "continent": "NA",
+                "covidcases": 963074
+            },
+            {
+                "month": "April2020",
+                "continent": "SA",
+                "covidcases": 165743
+            },
+            {
+                "month": "April2020",
+                "continent": "EU",
+                "covidcases": 1002454
+            },
+            {
+                "month": "April2020",
+                "continent": "OC",
+                "covidcases": 4195
+            }
+        ]
+    },
+    "May": {
+        "links": [
+            {
+                "month": "May2020",
+                "source": "NA",
+                "destination": "NA",
+                "count": 565553
+            },
+            {
+                "month": "May2020",
+                "source": "AS",
+                "destination": "AS",
+                "count": 23112
+            },
+            {
+                "month": "May2020",
+                "source": "EU",
+                "destination": "EU",
+                "count": 86285
+            },
+            {
+                "month": "May2020",
+                "source": "OC",
+                "destination": "OC",
+                "count": 25630
+            },
+            {
+                "month": "May2020",
+                "source": "NA",
+                "destination": "EU",
+                "count": 3613
+            },
+            {
+                "month": "May2020",
+                "source": "NA",
+                "destination": "AS",
+                "count": 3814
+            },
+            {
+                "month": "May2020",
+                "source": "EU",
+                "destination": "AS",
+                "count": 6320
+            },
+            {
+                "month": "May2020",
+                "source": "EU",
+                "destination": "NA",
+                "count": 3359
+            },
+            {
+                "month": "May2020",
+                "source": "EU",
+                "destination": "AF",
+                "count": 386
+            },
+            {
+                "month": "May2020",
+                "source": "NA",
+                "destination": "OC",
+                "count": 244
+            },
+            {
+                "month": "May2020",
+                "source": "AS",
+                "destination": "EU",
+                "count": 6138
+            },
+            {
+                "month": "May2020",
+                "source": "AF",
+                "destination": "EU",
+                "count": 422
+            },
+            {
+                "month": "May2020",
+                "source": "AF",
+                "destination": "AF",
+                "count": 251
+            },
+            {
+                "month": "May2020",
+                "source": "AF",
+                "destination": "AS",
+                "count": 162
+            },
+            {
+                "month": "May2020",
+                "source": "AF",
+                "destination": "SA",
+                "count": 34
+            },
+            {
+                "month": "May2020",
+                "source": "AS",
+                "destination": "NA",
+                "count": 3487
+            },
+            {
+                "month": "May2020",
+                "source": "AS",
+                "destination": "AF",
+                "count": 174
+            },
+            {
+                "month": "May2020",
+                "source": "OC",
+                "destination": "NA",
+                "count": 180
+            },
+            {
+                "month": "May2020",
+                "source": "OC",
+                "destination": "SA",
+                "count": 22
+            },
+            {
+                "month": "May2020",
+                "source": "SA",
+                "destination": "SA",
+                "count": 2735
+            },
+            {
+                "month": "May2020",
+                "source": "SA",
+                "destination": "AS",
+                "count": 50
+            },
+            {
+                "month": "May2020",
+                "source": "SA",
+                "destination": "NA",
+                "count": 700
+            },
+            {
+                "month": "May2020",
+                "source": "NA",
+                "destination": "SA",
+                "count": 678
+            },
+            {
+                "month": "May2020",
+                "source": "EU",
+                "destination": "SA",
+                "count": 254
+            },
+            {
+                "month": "May2020",
+                "source": "AS",
+                "destination": "OC",
+                "count": 979
+            },
+            {
+                "month": "May2020",
+                "source": "AS",
+                "destination": "SA",
+                "count": 58
+            },
+            {
+                "month": "May2020",
+                "source": "SA",
+                "destination": "EU",
+                "count": 241
+            },
+            {
+                "month": "May2020",
+                "source": "OC",
+                "destination": "AS",
+                "count": 1076
+            },
+            {
+                "month": "May2020",
+                "source": "NA",
+                "destination": "AF",
+                "count": 7
+            },
+            {
+                "month": "May2020",
+                "source": "SA",
+                "destination": "OC",
+                "count": 20
+            },
+            {
+                "month": "May2020",
+                "source": "SA",
+                "destination": "AF",
+                "count": 32
+            },
+            {
+                "month": "May2020",
+                "source": "AF",
+                "destination": "NA",
+                "count": 12
+            },
+            {
+                "month": "May2020",
+                "source": "EU",
+                "destination": "OC",
+                "count": 17
+            },
+            {
+                "month": "May2020",
+                "source": "OC",
+                "destination": "EU",
+                "count": 25
+            }
+        ],
+        "nodes": [
+            {
+                "month": "May2020",
+                "continent": "AS",
+                "covidcases": 555365
+            },
+            {
+                "month": "May2020",
+                "continent": "AF",
+                "covidcases": 107968
+            },
+            {
+                "month": "May2020",
+                "continent": "NA",
+                "covidcases": 859721
+            },
+            {
+                "month": "May2020",
+                "continent": "SA",
+                "covidcases": 721449
+            },
+            {
+                "month": "May2020",
+                "continent": "EU",
+                "covidcases": 663189
+            },
+            {
+                "month": "May2020",
+                "continent": "OC",
+                "covidcases": 1222
+            }
+        ]
+    },
+    "June": {
+        "links": [
+            {
+                "month": "June2020",
+                "source": "AS",
+                "destination": "AS",
+                "count": 34244
+            },
+            {
+                "month": "June2020",
+                "source": "NA",
+                "destination": "NA",
+                "count": 713674
+            },
+            {
+                "month": "June2020",
+                "source": "AS",
+                "destination": "OC",
+                "count": 867
+            },
+            {
+                "month": "June2020",
+                "source": "AS",
+                "destination": "EU",
+                "count": 6631
+            },
+            {
+                "month": "June2020",
+                "source": "OC",
+                "destination": "OC",
+                "count": 32327
+            },
+            {
+                "month": "June2020",
+                "source": "NA",
+                "destination": "EU",
+                "count": 4033
+            },
+            {
+                "month": "June2020",
+                "source": "EU",
+                "destination": "EU",
+                "count": 131442
+            },
+            {
+                "month": "June2020",
+                "source": "NA",
+                "destination": "AS",
+                "count": 3622
+            },
+            {
+                "month": "June2020",
+                "source": "OC",
+                "destination": "NA",
+                "count": 184
+            },
+            {
+                "month": "June2020",
+                "source": "OC",
+                "destination": "AS",
+                "count": 970
+            },
+            {
+                "month": "June2020",
+                "source": "AS",
+                "destination": "NA",
+                "count": 3433
+            },
+            {
+                "month": "June2020",
+                "source": "AF",
+                "destination": "EU",
+                "count": 607
+            },
+            {
+                "month": "June2020",
+                "source": "EU",
+                "destination": "AF",
+                "count": 500
+            },
+            {
+                "month": "June2020",
+                "source": "EU",
+                "destination": "NA",
+                "count": 3850
+            },
+            {
+                "month": "June2020",
+                "source": "EU",
+                "destination": "AS",
+                "count": 6662
+            },
+            {
+                "month": "June2020",
+                "source": "AF",
+                "destination": "AS",
+                "count": 186
+            },
+            {
+                "month": "June2020",
+                "source": "NA",
+                "destination": "SA",
+                "count": 703
+            },
+            {
+                "month": "June2020",
+                "source": "EU",
+                "destination": "SA",
+                "count": 356
+            },
+            {
+                "month": "June2020",
+                "source": "AF",
+                "destination": "AF",
+                "count": 578
+            },
+            {
+                "month": "June2020",
+                "source": "SA",
+                "destination": "SA",
+                "count": 3436
+            },
+            {
+                "month": "June2020",
+                "source": "NA",
+                "destination": "OC",
+                "count": 235
+            },
+            {
+                "month": "June2020",
+                "source": "AF",
+                "destination": "SA",
+                "count": 41
+            },
+            {
+                "month": "June2020",
+                "source": "AS",
+                "destination": "AF",
+                "count": 223
+            },
+            {
+                "month": "June2020",
+                "source": "OC",
+                "destination": "EU",
+                "count": 14
+            },
+            {
+                "month": "June2020",
+                "source": "AS",
+                "destination": "SA",
+                "count": 39
+            },
+            {
+                "month": "June2020",
+                "source": "SA",
+                "destination": "EU",
+                "count": 318
+            },
+            {
+                "month": "June2020",
+                "source": "SA",
+                "destination": "NA",
+                "count": 657
+            },
+            {
+                "month": "June2020",
+                "source": "SA",
+                "destination": "AF",
+                "count": 48
+            },
+            {
+                "month": "June2020",
+                "source": "SA",
+                "destination": "AS",
+                "count": 33
+            },
+            {
+                "month": "June2020",
+                "source": "SA",
+                "destination": "OC",
+                "count": 20
+            },
+            {
+                "month": "June2020",
+                "source": "EU",
+                "destination": "OC",
+                "count": 6
+            },
+            {
+                "month": "June2020",
+                "source": "AF",
+                "destination": "NA",
+                "count": 17
+            },
+            {
+                "month": "June2020",
+                "source": "NA",
+                "destination": "AF",
+                "count": 14
+            },
+            {
+                "month": "June2020",
+                "source": "AF",
+                "destination": "OC",
+                "count": 3
+            },
+            {
+                "month": "June2020",
+                "source": "OC",
+                "destination": "SA",
+                "count": 17
+            }
+        ],
+        "nodes": [
+            {
+                "month": "June2020",
+                "continent": "AS",
+                "covidcases": 1090404
+            },
+            {
+                "month": "June2020",
+                "continent": "AF",
+                "covidcases": 258002
+            },
+            {
+                "month": "June2020",
+                "continent": "NA",
+                "covidcases": 1058325
+            },
+            {
+                "month": "June2020",
+                "continent": "SA",
+                "covidcases": 1326739
+            },
+            {
+                "month": "June2020",
+                "continent": "EU",
+                "covidcases": 520948
+            },
+            {
+                "month": "June2020",
+                "continent": "OC",
+                "covidcases": 4853
+            }
+        ]
+    },
+    "July": {
+        "links": [
+            {
+                "month": "July2020",
+                "source": "EU",
+                "destination": "EU",
+                "count": 241599
+            },
+            {
+                "month": "July2020",
+                "source": "NA",
+                "destination": "NA",
+                "count": 849208
+            },
+            {
+                "month": "July2020",
+                "source": "AS",
+                "destination": "EU",
+                "count": 9428
+            },
+            {
+                "month": "July2020",
+                "source": "AS",
+                "destination": "AS",
+                "count": 41425
+            },
+            {
+                "month": "July2020",
+                "source": "OC",
+                "destination": "OC",
+                "count": 37532
+            },
+            {
+                "month": "July2020",
+                "source": "EU",
+                "destination": "AF",
+                "count": 890
+            },
+            {
+                "month": "July2020",
+                "source": "EU",
+                "destination": "AS",
+                "count": 8870
+            },
+            {
+                "month": "July2020",
+                "source": "AF",
+                "destination": "EU",
+                "count": 1018
+            },
+            {
+                "month": "July2020",
+                "source": "NA",
+                "destination": "AS",
+                "count": 3823
+            },
+            {
+                "month": "July2020",
+                "source": "EU",
+                "destination": "NA",
+                "count": 4749
+            },
+            {
+                "month": "July2020",
+                "source": "OC",
+                "destination": "NA",
+                "count": 213
+            },
+            {
+                "month": "July2020",
+                "source": "SA",
+                "destination": "SA",
+                "count": 4166
+            },
+            {
+                "month": "July2020",
+                "source": "AS",
+                "destination": "AF",
+                "count": 258
+            },
+            {
+                "month": "July2020",
+                "source": "OC",
+                "destination": "AS",
+                "count": 1032
+            },
+            {
+                "month": "July2020",
+                "source": "AF",
+                "destination": "AF",
+                "count": 839
+            },
+            {
+                "month": "July2020",
+                "source": "NA",
+                "destination": "SA",
+                "count": 718
+            },
+            {
+                "month": "July2020",
+                "source": "AS",
+                "destination": "NA",
+                "count": 3582
+            },
+            {
+                "month": "July2020",
+                "source": "NA",
+                "destination": "EU",
+                "count": 4896
+            },
+            {
+                "month": "July2020",
+                "source": "AF",
+                "destination": "AS",
+                "count": 255
+            },
+            {
+                "month": "July2020",
+                "source": "NA",
+                "destination": "OC",
+                "count": 259
+            },
+            {
+                "month": "July2020",
+                "source": "SA",
+                "destination": "NA",
+                "count": 678
+            },
+            {
+                "month": "July2020",
+                "source": "EU",
+                "destination": "SA",
+                "count": 396
+            },
+            {
+                "month": "July2020",
+                "source": "AF",
+                "destination": "NA",
+                "count": 41
+            },
+            {
+                "month": "July2020",
+                "source": "AS",
+                "destination": "OC",
+                "count": 933
+            },
+            {
+                "month": "July2020",
+                "source": "SA",
+                "destination": "OC",
+                "count": 4
+            },
+            {
+                "month": "July2020",
+                "source": "SA",
+                "destination": "AF",
+                "count": 34
+            },
+            {
+                "month": "July2020",
+                "source": "SA",
+                "destination": "EU",
+                "count": 345
+            },
+            {
+                "month": "July2020",
+                "source": "AS",
+                "destination": "SA",
+                "count": 42
+            },
+            {
+                "month": "July2020",
+                "source": "SA",
+                "destination": "AS",
+                "count": 49
+            },
+            {
+                "month": "July2020",
+                "source": "AF",
+                "destination": "SA",
+                "count": 34
+            },
+            {
+                "month": "July2020",
+                "source": "EU",
+                "destination": "OC",
+                "count": 3
+            },
+            {
+                "month": "July2020",
+                "source": "NA",
+                "destination": "AF",
+                "count": 32
+            },
+            {
+                "month": "July2020",
+                "source": "OC",
+                "destination": "SA",
+                "count": 4
+            },
+            {
+                "month": "July2020",
+                "source": "OC",
+                "destination": "EU",
+                "count": 5
+            },
+            {
+                "month": "July2020",
+                "source": "OC",
+                "destination": "AF",
+                "count": 1
+            },
+            {
+                "month": "July2020",
+                "source": "AF",
+                "destination": "OC",
+                "count": 1
+            }
+        ],
+        "nodes": [
+            {
+                "month": "July2020",
+                "continent": "AS",
+                "covidcases": 1864116
+            },
+            {
+                "month": "July2020",
+                "continent": "AF",
+                "covidcases": 523359
+            },
+            {
+                "month": "July2020",
+                "continent": "NA",
+                "covidcases": 2283220
+            },
+            {
+                "month": "July2020",
+                "continent": "SA",
+                "covidcases": 1873414
+            },
+            {
+                "month": "July2020",
+                "continent": "EU",
+                "covidcases": 584617
+            },
+            {
+                "month": "July2020",
+                "continent": "OC",
+                "covidcases": 13884
+            }
+        ]
+    },
+    "August": {
+        "links": [
+            {
+                "month": "April2020",
+                "source": "EU",
+                "destination": "EU",
+                "count": 53694
+            },
+            {
+                "month": "April2020",
+                "source": "NA",
+                "destination": "NA",
+                "count": 438295
+            },
+            {
+                "month": "April2020",
+                "source": "NA",
+                "destination": "EU",
+                "count": 2930
+            },
+            {
+                "month": "April2020",
+                "source": "AS",
+                "destination": "EU",
+                "count": 4688
+            },
+            {
+                "month": "April2020",
+                "source": "EU",
+                "destination": "AS",
+                "count": 4635
+            },
+            {
+                "month": "April2020",
+                "source": "NA",
+                "destination": "AS",
+                "count": 2559
+            },
+            {
+                "month": "April2020",
+                "source": "OC",
+                "destination": "OC",
+                "count": 19726
+            },
+            {
+                "month": "April2020",
+                "source": "AS",
+                "destination": "AS",
+                "count": 21193
+            },
+            {
+                "month": "April2020",
+                "source": "OC",
+                "destination": "AS",
+                "count": 953
+            },
+            {
+                "month": "April2020",
+                "source": "AS",
+                "destination": "NA",
+                "count": 2514
+            },
+            {
+                "month": "April2020",
+                "source": "EU",
+                "destination": "NA",
+                "count": 2650
+            },
+            {
+                "month": "April2020",
+                "source": "SA",
+                "destination": "SA",
+                "count": 2479
+            },
+            {
+                "month": "April2020",
+                "source": "AF",
+                "destination": "AF",
+                "count": 165
+            },
+            {
+                "month": "April2020",
+                "source": "AF",
+                "destination": "AS",
+                "count": 126
+            },
+            {
+                "month": "April2020",
+                "source": "OC",
+                "destination": "NA",
+                "count": 136
+            },
+            {
+                "month": "April2020",
+                "source": "AF",
+                "destination": "EU",
+                "count": 302
+            },
+            {
+                "month": "April2020",
+                "source": "EU",
+                "destination": "SA",
+                "count": 178
+            },
+            {
+                "month": "April2020",
+                "source": "NA",
+                "destination": "OC",
+                "count": 187
+            },
+            {
+                "month": "April2020",
+                "source": "EU",
+                "destination": "AF",
+                "count": 212
+            },
+            {
+                "month": "April2020",
+                "source": "AS",
+                "destination": "OC",
+                "count": 888
+            },
+            {
+                "month": "April2020",
+                "source": "NA",
+                "destination": "SA",
+                "count": 554
+            },
+            {
+                "month": "April2020",
+                "source": "AS",
+                "destination": "AF",
+                "count": 104
+            },
+            {
+                "month": "April2020",
+                "source": "AS",
+                "destination": "SA",
+                "count": 32
+            },
+            {
+                "month": "April2020",
+                "source": "SA",
+                "destination": "EU",
+                "count": 155
+            },
+            {
+                "month": "April2020",
+                "source": "AF",
+                "destination": "NA",
+                "count": 18
+            },
+            {
+                "month": "April2020",
+                "source": "OC",
+                "destination": "EU",
+                "count": 15
+            },
+            {
+                "month": "April2020",
+                "source": "NA",
+                "destination": "AF",
+                "count": 19
+            },
+            {
+                "month": "April2020",
+                "source": "SA",
+                "destination": "NA",
+                "count": 606
+            },
+            {
+                "month": "April2020",
+                "source": "SA",
+                "destination": "AF",
+                "count": 29
+            },
+            {
+                "month": "April2020",
+                "source": "SA",
+                "destination": "AS",
+                "count": 22
+            },
+            {
+                "month": "April2020",
+                "source": "AF",
+                "destination": "SA",
+                "count": 32
+            },
+            {
+                "month": "April2020",
+                "source": "OC",
+                "destination": "SA",
+                "count": 11
+            },
+            {
+                "month": "April2020",
+                "source": "SA",
+                "destination": "OC",
+                "count": 6
+            },
+            {
+                "month": "April2020",
+                "source": "EU",
+                "destination": "OC",
+                "count": 8
+            },
+            {
+                "month": "April2020",
+                "source": "AF",
+                "destination": "OC",
+                "count": 1
+            }
+        ],
+        "nodes": [
+            {
+                "month": "August2020",
+                "continent": "AS",
+                "covidcases": 2728141
+            },
+            {
+                "month": "August2020",
+                "continent": "AF",
+                "covidcases": 324090
+            },
+            {
+                "month": "August2020",
+                "continent": "NA",
+                "covidcases": 1787994
+            },
+            {
+                "month": "August2020",
+                "continent": "SA",
+                "covidcases": 2199846
+            },
+            {
+                "month": "August2020",
+                "continent": "EU",
+                "covidcases": 830396
+            },
+            {
+                "month": "August2020",
+                "continent": "OC",
+                "covidcases": 12704
+            }
+        ]
+    },
+    "September": {
+        "links": [
+            {
+                "month": "September2020",
+                "source": "OC",
+                "destination": "OC",
+                "count": 31507
+            },
+            {
+                "month": "September2020",
+                "source": "OC",
+                "destination": "AS",
+                "count": 1062
+            },
+            {
+                "month": "September2020",
+                "source": "OC",
+                "destination": "NA",
+                "count": 243
+            },
+            {
+                "month": "September2020",
+                "source": "NA",
+                "destination": "NA",
+                "count": 834110
+            },
+            {
+                "month": "September2020",
+                "source": "NA",
+                "destination": "AS",
+                "count": 4020
+            },
+            {
+                "month": "September2020",
+                "source": "NA",
+                "destination": "EU",
+                "count": 5909
+            },
+            {
+                "month": "September2020",
+                "source": "EU",
+                "destination": "EU",
+                "count": 261906
+            },
+            {
+                "month": "September2020",
+                "source": "EU",
+                "destination": "NA",
+                "count": 5684
+            },
+            {
+                "month": "September2020",
+                "source": "EU",
+                "destination": "AS",
+                "count": 14329
+            },
+            {
+                "month": "September2020",
+                "source": "AS",
+                "destination": "AS",
+                "count": 44336
+            },
+            {
+                "month": "September2020",
+                "source": "AS",
+                "destination": "EU",
+                "count": 14321
+            },
+            {
+                "month": "September2020",
+                "source": "SA",
+                "destination": "SA",
+                "count": 7657
+            },
+            {
+                "month": "September2020",
+                "source": "SA",
+                "destination": "NA",
+                "count": 818
+            },
+            {
+                "month": "September2020",
+                "source": "SA",
+                "destination": "EU",
+                "count": 457
+            },
+            {
+                "month": "September2020",
+                "source": "EU",
+                "destination": "AF",
+                "count": 1076
+            },
+            {
+                "month": "September2020",
+                "source": "AS",
+                "destination": "AF",
+                "count": 607
+            },
+            {
+                "month": "September2020",
+                "source": "NA",
+                "destination": "SA",
+                "count": 850
+            },
+            {
+                "month": "September2020",
+                "source": "AS",
+                "destination": "NA",
+                "count": 3757
+            },
+            {
+                "month": "September2020",
+                "source": "AS",
+                "destination": "OC",
+                "count": 1091
+            },
+            {
+                "month": "September2020",
+                "source": "NA",
+                "destination": "OC",
+                "count": 336
+            },
+            {
+                "month": "September2020",
+                "source": "EU",
+                "destination": "SA",
+                "count": 509
+            },
+            {
+                "month": "September2020",
+                "source": "AF",
+                "destination": "EU",
+                "count": 1203
+            },
+            {
+                "month": "September2020",
+                "source": "AF",
+                "destination": "AF",
+                "count": 1377
+            },
+            {
+                "month": "September2020",
+                "source": "AF",
+                "destination": "AS",
+                "count": 600
+            },
+            {
+                "month": "September2020",
+                "source": "NA",
+                "destination": "AF",
+                "count": 36
+            },
+            {
+                "month": "September2020",
+                "source": "AF",
+                "destination": "NA",
+                "count": 39
+            },
+            {
+                "month": "September2020",
+                "source": "AS",
+                "destination": "SA",
+                "count": 68
+            },
+            {
+                "month": "September2020",
+                "source": "SA",
+                "destination": "AS",
+                "count": 63
+            },
+            {
+                "month": "September2020",
+                "source": "OC",
+                "destination": "EU",
+                "count": 9
+            },
+            {
+                "month": "September2020",
+                "source": "AF",
+                "destination": "OC",
+                "count": 1
+            },
+            {
+                "month": "September2020",
+                "source": "SA",
+                "destination": "OC",
+                "count": 4
+            },
+            {
+                "month": "September2020",
+                "source": "OC",
+                "destination": "AF",
+                "count": 1
+            },
+            {
+                "month": "September2020",
+                "source": "SA",
+                "destination": "AF",
+                "count": 1
+            }
+        ],
+        "nodes": [
+            {
+                "month": "September2020",
+                "continent": "AS",
+                "covidcases": 3479518
+            },
+            {
+                "month": "September2020",
+                "continent": "AF",
+                "covidcases": 229694
+            },
+            {
+                "month": "September2020",
+                "continent": "NA",
+                "covidcases": 1495526
+            },
+            {
+                "month": "September2020",
+                "continent": "SA",
+                "covidcases": 1762746
+            },
+            {
+                "month": "September2020",
+                "continent": "EU",
+                "covidcases": 1512995
+            },
+            {
+                "month": "September2020",
+                "continent": "OC",
+                "covidcases": 5088
+            }
+        ]
+    }
+}
