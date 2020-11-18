@@ -9,17 +9,19 @@ import './App.css';
 import Barchart from '../components/Barchart';
 import RegionDiag from '../components/RegionDiag';
 import Map from '../components/Map';
+import './style.css';
 
-const Home = () => (
-  <div>
-    <h2>Home</h2>
-  </div>
+var __html = require('./document.js');
+var homepage = { __html: __html };
+
+const HomePage = () => (
+  <div dangerouslySetInnerHTML={homepage} />
 );
 
 function App() {
   return (
-      <div className="App"> 
-      <nav className="navbar navbar-light">
+      <div>
+      {/* <nav className="navbar navbar-light">
       <ul className="nav navbar-nav"> 
           <li> 
             <Link to="/">Home</Link> 
@@ -34,11 +36,11 @@ function App() {
             <Link to="/region">Region Wise</Link> 
           </li> 
         </ul> 
-      </nav>
+      </nav> */}
 
         <Switch> 
           <Route exact path="/">
-            <Home />
+            <HomePage />
           </Route>
           <Route path="/bar-chart">
             <Barchart />
