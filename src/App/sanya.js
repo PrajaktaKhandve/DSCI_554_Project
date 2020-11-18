@@ -1,4 +1,4 @@
-
+module.exports = `
 <!DOCTYPE html>
 <html>
 <head>
@@ -71,7 +71,7 @@
 <!-- script - fill out the dropdown - converting csv to array -->
 <script>
     ( function() {
-        var csv_path = "data_sanya/2020data/large_airports_only.csv";
+        var csv_path = "../data/large_airports_only.csv";
 
         name_lat = new Map()
         name_lon = new Map()
@@ -408,7 +408,7 @@
 
 <script>
 
-chart("stream_data.csv", "inferno");
+chart("../data/stream_data.csv", "inferno");
 
 var datearray = [];
 var colorrange = [];
@@ -834,7 +834,7 @@ table, th, td {
         .append("g")
             .attr("transform", "translate(" + width/2 + "," + height/2 + ")");
 
-        d3.csv("ranking_2020_count.csv", function(error, data) {
+        d3.csv("../data/ranking_2020_count.csv", function(error, data) {
             if (data != undefined) {
                 data.sort(function(a,b) { return b.value - a.value; });
 
@@ -946,7 +946,7 @@ table, th, td {
         .append("g")
             .attr("transform", "translate(" + width/2 + "," + height/2 + ")");
 
-        d3.csv("ranking_2019_count.csv", function(error, data) {
+        d3.csv("../data/ranking_2019_count.csv", function(error, data) {
             if (data != undefined) {
                 data.sort(function(a,b) { return b.value - a.value; });
 
@@ -1339,8 +1339,6 @@ most active airports during COVID -->
         .attr("d", arc_heli);
     
 </script>
-
-
-
 </body>
 </html>
+`;

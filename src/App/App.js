@@ -2,7 +2,6 @@ import { hot } from 'react-hot-loader/root';
 import React from 'react';
 import { 
   Route,
-  Link,
   Switch
 } from 'react-router-dom'; 
 import './App.css';
@@ -10,11 +9,18 @@ import RegionDiag from '../components/RegionDiag';
 import Map from '../components/Map';
 import './style.css';
 
-var __html = require('./document.js');
-var homepage = { __html: __html };
+var __html_homepage = require('./document.js');
+var homepage = { __html: __html_homepage };
+
+var __html_sanya = require('./sanya.js');
+var sanya = { __html: __html_sanya };
 
 const HomePage = () => (
   <div dangerouslySetInnerHTML={homepage} />
+);
+
+const Sanya = () => (
+  <div dangerouslySetInnerHTML={sanya} />
 );
 
 function App() {
@@ -46,6 +52,9 @@ function App() {
           </Route>
           <Route path="/region">
             <RegionDiag />
+          </Route>
+          <Route path="/airports">
+            <Sanya />
           </Route>
         </Switch> 
       </div> 
