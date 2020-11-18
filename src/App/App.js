@@ -6,7 +6,6 @@ import {
   Switch
 } from 'react-router-dom'; 
 import './App.css';
-import Barchart from '../components/Barchart';
 import RegionDiag from '../components/RegionDiag';
 import Map from '../components/Map';
 import './style.css';
@@ -41,9 +40,6 @@ function App() {
         <Switch> 
           <Route exact path="/">
             <HomePage />
-          </Route>
-          <Route path="/bar-chart">
-            <Barchart />
           </Route>
           <Route path="/map">
             <Map />

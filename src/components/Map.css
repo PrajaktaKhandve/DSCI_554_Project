@@ -1,0 +1,12 @@
+.arc {
+    fill: none;
+    stroke: red;
+    stroke-width: 1px;
+    stroke-linecap: round;
+}
+
+.internal-connection {
+    fill: none;
+    stroke: #9C528B;
+    stroke-linejoin: round;
+}

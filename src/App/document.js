@@ -19,9 +19,9 @@ module.exports = `<!DOCTYPE html>
                     </div>
                     <nav>
                         <ul>
-                            <li> <a href = "#" >HOME</a></li>
-                            <li> <a href = "#" >ABOUT</a></li>
-                            <li> <a href = "#" >CONTACT</a></li>
+                            <li> <a href = "/" >HOME</a></li>
+                            <li> <a href = "/region" >Region</a></li>
+                            <li> <a href = "/map" >Map</a></li>
                             <li> <a href = "#" >BLOG</a></li>
                             <li> <a href = "#" class = "active">GET STARTED</a></li>
                         </ul>

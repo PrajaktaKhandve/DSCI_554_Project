@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import * as d3 from 'd3';
 import * as topojson from 'topojson';
-import '../App/App.css';
+import './Map.css';
 import data from '../data/countries-50m.json';
 import covid from '../data/covid19.json';
 
@@ -12,7 +12,7 @@ class Map extends Component {
         this.legend = this.legend.bind(this);
         this.ramp = this.ramp.bind(this); 
         this.loopMonth = this.loopMonth.bind(this);
-        this.margin = { top: 20, left: 20, bottom: 20, right: 20 };
+        this.margin = { top: 80, left: 20, bottom: 0, right: 20 };
         this.months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September'];
         this.maxValues = [9802, 69554, 192084, 884003, 718092, 887192, 1921350, 1995178, 2621418];
         this.state = {
@@ -23,7 +23,9 @@ class Map extends Component {
 
     componentDidMount(){
         // wait every 5 sec to refresh to next month
-        this.interval = setInterval(this.loopMonth, 5000);
+        // this.interval = setInterval(this.loopMonth, 5000);
+        console.log(window.innerWidth, window.innerHeight);
+        this.loopMonth();
     }
 
     componentWillUnmount () {
@@ -65,11 +67,13 @@ class Map extends Component {
         //const logScale = d3.scaleLog().domain([1, this.state.max]);
         var color = d3.scaleSequentialLog([1, this.state.max], d3.interpolateRdPu);
 
+        // Append Legend 
         svg.append("g")
             .attr("class", "legend")
             .attr("transform", "translate(550,400)")
             .append(() => this.legend({ color: color, title: covid19.title, width: 360 }));  
-
+        
+        // Append Country 
         svg.append("g")
             .selectAll("path")
             .data(topojson.feature(world, world.objects.countries).features)
@@ -77,14 +81,17 @@ class Map extends Component {
             .attr("fill", d => color(covid19[d.properties.name] === undefined || covid19[d.properties.name] === 0 ? 1: covid19[d.properties.name]))
             .attr('d', path);
 
+        // Append Internal Connection between Countries
         svg.append('path')
             .datum(topojson.mesh(world, world.objects.countries, (a, b) => a !== b))
-            .attr('fill', 'none')
-            .attr('stroke', '#9C528B')
-            .attr('stroke-linejoin', 'round')
+            .attr("class", "internal-connection")
             .attr('d', path);
 
-        // d3.select(window).on('resize', this.resize);
+        // Append
+        svg.append("path")
+            .datum({type: "LineString", coordinates: [[-77.05, 38.91], [116.35, 39.91]]})
+            .attr("class", "arc")
+            .attr("d", path);
     }
 
     legend({
@@ -168,8 +175,13 @@ class Map extends Component {
     }
     
     render() {
+        this.width = window.innerWidth;
+        this.height = window.innerHeight;
         return (
-            <svg ref={ref => this.node = ref} width={"1440"}  height={"800"} />
+            <svg
+                ref={ref => this.node = ref}
+                width={this.width} 
+                height={this.height} />
         )    
     }
 }
