@@ -23,7 +23,7 @@ class Map extends Component {
 
     componentDidMount(){
         // wait every 5 sec to refresh to next month
-        // this.interval = setInterval(this.loopMonth, 5000);
+        this.interval = setInterval(this.loopMonth, 5000);
         console.log(window.innerWidth, window.innerHeight);
         this.loopMonth();
     }
