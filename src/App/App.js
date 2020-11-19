@@ -11,6 +11,8 @@ import Map from '../components/Map';
 import Stream from '../components/Stream_v3';
 import Radial19 from '../components/Radial_19_v3';
 import Radial20 from '../components/Radial_20_v3';
+import Mapbox from '../components/Mapbox';
+import Donuts from '../components/Donuts';
 import './style.css';
 
 var __html_homepage = require('./document.js');
@@ -68,7 +70,15 @@ function App() {
         </Route>
         <Route path="/radial_bar20">
             <Radial20 />
-          </Route>
+        </Route>
+        <Route path="/mapbox">
+            <Mapbox />
+        </Route>
+        <Route path="/donuts">
+            <Donuts />
+        </Route>
+        
+        
         </Switch> 
       </div>
   );

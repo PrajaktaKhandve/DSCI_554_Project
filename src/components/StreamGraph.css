@@ -22,3 +22,19 @@ p {
     background-color: white;
     width: 50%;
 }
+.slice_small {
+    stroke: black;
+    stroke-width: 5px;
+}
+.slice_medium {
+    stroke: black;
+    stroke-width: 5px;
+}
+.slice_large {
+    stroke: black;
+    stroke-width: 5px;
+}
+.slice_heliport {
+    stroke: black;
+    stroke-width: 5px;
+}
