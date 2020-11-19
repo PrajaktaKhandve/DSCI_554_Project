@@ -3,250 +3,250 @@
         "links": [
             {
                 "month": "January2020",
-                "source": "NA",
-                "destination": "NA",
+                "source": "North America",
+                "destination": "North America",
                 "count": 936477
             },
             {
                 "month": "January2020",
-                "source": "EU",
-                "destination": "EU",
+                "source": "Europe",
+                "destination": "Europe",
                 "count": 335051
             },
             {
                 "month": "January2020",
-                "source": "AS",
-                "destination": "AS",
+                "source": "Asia",
+                "destination": "Asia",
                 "count": 113668
             },
             {
                 "month": "January2020",
-                "source": "NA",
-                "destination": "EU",
+                "source": "North America",
+                "destination": "Europe",
                 "count": 12229
             },
             {
                 "month": "January2020",
-                "source": "NA",
-                "destination": "SA",
+                "source": "North America",
+                "destination": "South America",
                 "count": 2706
             },
             {
                 "month": "January2020",
-                "source": "OC",
-                "destination": "OC",
+                "source": "Oceanic",
+                "destination": "Oceanic",
                 "count": 62236
             },
             {
                 "month": "January2020",
-                "source": "AF",
-                "destination": "EU",
+                "source": "Africa",
+                "destination": "Europe",
                 "count": 3599
             },
             {
                 "month": "January2020",
-                "source": "EU",
-                "destination": "AF",
+                "source": "Europe",
+                "destination": "Africa",
                 "count": 2412
             },
             {
                 "month": "January2020",
-                "source": "EU",
-                "destination": "NA",
+                "source": "Europe",
+                "destination": "North America",
                 "count": 12698
             },
             {
                 "month": "January2020",
-                "source": "EU",
-                "destination": "AS",
+                "source": "Europe",
+                "destination": "Asia",
                 "count": 17230
             },
             {
                 "month": "January2020",
-                "source": "NA",
-                "destination": "AF",
+                "source": "North America",
+                "destination": "Africa",
                 "count": 152
             },
             {
                 "month": "January2020",
-                "source": "SA",
-                "destination": "EU",
+                "source": "South America",
+                "destination": "Europe",
                 "count": 1217
             },
             {
                 "month": "January2020",
-                "source": "NA",
-                "destination": "AS",
+                "source": "North America",
+                "destination": "Asia",
                 "count": 4662
             },
             {
                 "month": "January2020",
-                "source": "NA",
-                "destination": "OC",
+                "source": "North America",
+                "destination": "Oceanic",
                 "count": 962
             },
             {
                 "month": "January2020",
-                "source": "EU",
-                "destination": "SA",
+                "source": "Europe",
+                "destination": "South America",
                 "count": 1241
             },
             {
                 "month": "January2020",
-                "source": "SA",
-                "destination": "SA",
+                "source": "South America",
+                "destination": "South America",
                 "count": 14996
             },
             {
                 "month": "January2020",
-                "source": "AS",
-                "destination": "EU",
+                "source": "Asia",
+                "destination": "Europe",
                 "count": 20511
             },
             {
                 "month": "January2020",
-                "source": "AS",
-                "destination": "OC",
+                "source": "Asia",
+                "destination": "Oceanic",
                 "count": 3865
             },
             {
                 "month": "January2020",
-                "source": "AS",
-                "destination": "AF",
+                "source": "Asia",
+                "destination": "Africa",
                 "count": 483
             },
             {
                 "month": "January2020",
-                "source": "AS",
-                "destination": "NA",
+                "source": "Asia",
+                "destination": "North America",
                 "count": 4777
             },
             {
                 "month": "January2020",
-                "source": "AF",
-                "destination": "NA",
+                "source": "Africa",
+                "destination": "North America",
                 "count": 132
             },
             {
                 "month": "January2020",
-                "source": "AF",
-                "destination": "AF",
+                "source": "Africa",
+                "destination": "Africa",
                 "count": 2674
             },
             {
                 "month": "January2020",
-                "source": "AF",
-                "destination": "AS",
+                "source": "Africa",
+                "destination": "Asia",
                 "count": 661
             },
             {
                 "month": "January2020",
-                "source": "AF",
-                "destination": "SA",
+                "source": "Africa",
+                "destination": "South America",
                 "count": 81
             },
             {
                 "month": "January2020",
-                "source": "SA",
-                "destination": "NA",
+                "source": "South America",
+                "destination": "North America",
                 "count": 2737
             },
             {
                 "month": "January2020",
-                "source": "EU",
-                "destination": "OC",
+                "source": "Europe",
+                "destination": "Oceanic",
                 "count": 25
             },
             {
                 "month": "January2020",
-                "source": "OC",
-                "destination": "NA",
+                "source": "Oceanic",
+                "destination": "North America",
                 "count": 939
             },
             {
                 "month": "January2020",
-                "source": "OC",
-                "destination": "AS",
+                "source": "Oceanic",
+                "destination": "Asia",
                 "count": 3964
             },
             {
                 "month": "January2020",
-                "source": "SA",
-                "destination": "AS",
+                "source": "South America",
+                "destination": "Asia",
                 "count": 74
             },
             {
                 "month": "January2020",
-                "source": "AS",
-                "destination": "SA",
+                "source": "Asia",
+                "destination": "South America",
                 "count": 80
             },
             {
                 "month": "January2020",
-                "source": "OC",
-                "destination": "SA",
+                "source": "Oceanic",
+                "destination": "South America",
                 "count": 18
             },
             {
                 "month": "January2020",
-                "source": "SA",
-                "destination": "OC",
+                "source": "South America",
+                "destination": "Oceanic",
                 "count": 21
             },
             {
                 "month": "January2020",
-                "source": "SA",
-                "destination": "AF",
+                "source": "South America",
+                "destination": "Africa",
                 "count": 41
             },
             {
                 "month": "January2020",
-                "source": "OC",
-                "destination": "EU",
+                "source": "Oceanic",
+                "destination": "Europe",
                 "count": 99
             },
             {
                 "month": "January2020",
-                "source": "AF",
-                "destination": "OC",
+                "source": "Africa",
+                "destination": "Oceanic",
                 "count": 15
             },
             {
                 "month": "January2020",
-                "source": "OC",
-                "destination": "AF",
+                "source": "Oceanic",
+                "destination": "Africa",
                 "count": 11
             }
         ],
         "nodes": [
             {
                 "month": "January2020",
-                "continent": "AS",
+                "continent": "Asia",
                 "covidcases": 9889
             },
             {
                 "month": "January2020",
-                "continent": "AF",
+                "continent": "Africa",
                 "covidcases": 0
             },
             {
                 "month": "January2020",
-                "continent": "NA",
+                "continent": "North America",
                 "covidcases": 12
             },
             {
                 "month": "January2020",
-                "continent": "SA",
+                "continent": "South America",
                 "covidcases": 0
             },
             {
                 "month": "January2020",
-                "continent": "EU",
-                "covidcases": null
+                "continent": "Europe",
+                "covidcases": 0
             },
             {
                 "month": "January2020",
-                "continent": "OC",
+                "continent": "Oceanic",
                 "covidcases": 9
             }
         ]
@@ -255,250 +255,250 @@
         "links": [
             {
                 "month": "February2020",
-                "source": "NA",
-                "destination": "NA",
+                "source": "North America",
+                "destination": "North America",
                 "count": 977332
             },
             {
                 "month": "February2020",
-                "source": "NA",
-                "destination": "EU",
+                "source": "North America",
+                "destination": "Europe",
                 "count": 12717
             },
             {
                 "month": "February2020",
-                "source": "AF",
-                "destination": "AF",
+                "source": "Africa",
+                "destination": "Africa",
                 "count": 3043
             },
             {
                 "month": "February2020",
-                "source": "AF",
-                "destination": "AS",
+                "source": "Africa",
+                "destination": "Asia",
                 "count": 620
             },
             {
                 "month": "February2020",
-                "source": "AF",
-                "destination": "EU",
+                "source": "Africa",
+                "destination": "Europe",
                 "count": 3672
             },
             {
                 "month": "February2020",
-                "source": "EU",
-                "destination": "EU",
+                "source": "Europe",
+                "destination": "Europe",
                 "count": 351803
             },
             {
                 "month": "February2020",
-                "source": "OC",
-                "destination": "OC",
+                "source": "Oceanic",
+                "destination": "Oceanic",
                 "count": 64666
             },
             {
                 "month": "February2020",
-                "source": "AS",
-                "destination": "AS",
+                "source": "Asia",
+                "destination": "Asia",
                 "count": 99534
             },
             {
                 "month": "February2020",
-                "source": "EU",
-                "destination": "NA",
+                "source": "Europe",
+                "destination": "North America",
                 "count": 13111
             },
             {
                 "month": "February2020",
-                "source": "AS",
-                "destination": "OC",
+                "source": "Asia",
+                "destination": "Oceanic",
                 "count": 3476
             },
             {
                 "month": "February2020",
-                "source": "NA",
-                "destination": "AF",
+                "source": "North America",
+                "destination": "Africa",
                 "count": 165
             },
             {
                 "month": "February2020",
-                "source": "SA",
-                "destination": "SA",
+                "source": "South America",
+                "destination": "South America",
                 "count": 17465
             },
             {
                 "month": "February2020",
-                "source": "SA",
-                "destination": "NA",
+                "source": "South America",
+                "destination": "North America",
                 "count": 2771
             },
             {
                 "month": "February2020",
-                "source": "SA",
-                "destination": "EU",
+                "source": "South America",
+                "destination": "Europe",
                 "count": 1635
             },
             {
                 "month": "February2020",
-                "source": "NA",
-                "destination": "AS",
+                "source": "North America",
+                "destination": "Asia",
                 "count": 4589
             },
             {
                 "month": "February2020",
-                "source": "NA",
-                "destination": "SA",
+                "source": "North America",
+                "destination": "South America",
                 "count": 2725
             },
             {
                 "month": "February2020",
-                "source": "EU",
-                "destination": "AF",
+                "source": "Europe",
+                "destination": "Africa",
                 "count": 2528
             },
             {
                 "month": "February2020",
-                "source": "EU",
-                "destination": "AS",
+                "source": "Europe",
+                "destination": "Asia",
                 "count": 16799
             },
             {
                 "month": "February2020",
-                "source": "NA",
-                "destination": "OC",
+                "source": "North America",
+                "destination": "Oceanic",
                 "count": 891
             },
             {
                 "month": "February2020",
-                "source": "EU",
-                "destination": "SA",
+                "source": "Europe",
+                "destination": "South America",
                 "count": 1644
             },
             {
                 "month": "February2020",
-                "source": "EU",
-                "destination": "OC",
+                "source": "Europe",
+                "destination": "Oceanic",
                 "count": 31
             },
             {
                 "month": "February2020",
-                "source": "OC",
-                "destination": "AS",
+                "source": "Oceanic",
+                "destination": "Asia",
                 "count": 3645
             },
             {
                 "month": "February2020",
-                "source": "AF",
-                "destination": "NA",
+                "source": "Africa",
+                "destination": "North America",
                 "count": 148
             },
             {
                 "month": "February2020",
-                "source": "AS",
-                "destination": "EU",
+                "source": "Asia",
+                "destination": "Europe",
                 "count": 18267
             },
             {
                 "month": "February2020",
-                "source": "SA",
-                "destination": "AF",
+                "source": "South America",
+                "destination": "Africa",
                 "count": 64
             },
             {
                 "month": "February2020",
-                "source": "AF",
-                "destination": "SA",
+                "source": "Africa",
+                "destination": "South America",
                 "count": 91
             },
             {
                 "month": "February2020",
-                "source": "AF",
-                "destination": "OC",
+                "source": "Africa",
+                "destination": "Oceanic",
                 "count": 16
             },
             {
                 "month": "February2020",
-                "source": "AS",
-                "destination": "AF",
+                "source": "Asia",
+                "destination": "Africa",
                 "count": 412
             },
             {
                 "month": "February2020",
-                "source": "AS",
-                "destination": "NA",
+                "source": "Asia",
+                "destination": "North America",
                 "count": 4389
             },
             {
                 "month": "February2020",
-                "source": "OC",
-                "destination": "NA",
+                "source": "Oceanic",
+                "destination": "North America",
                 "count": 872
             },
             {
                 "month": "February2020",
-                "source": "AS",
-                "destination": "SA",
+                "source": "Asia",
+                "destination": "South America",
                 "count": 107
             },
             {
                 "month": "February2020",
-                "source": "SA",
-                "destination": "AS",
+                "source": "South America",
+                "destination": "Asia",
                 "count": 91
             },
             {
                 "month": "February2020",
-                "source": "OC",
-                "destination": "EU",
+                "source": "Oceanic",
+                "destination": "Europe",
                 "count": 69
             },
             {
                 "month": "February2020",
-                "source": "OC",
-                "destination": "SA",
+                "source": "Oceanic",
+                "destination": "South America",
                 "count": 23
             },
             {
                 "month": "February2020",
-                "source": "SA",
-                "destination": "OC",
+                "source": "South America",
+                "destination": "Oceanic",
                 "count": 29
             },
             {
                 "month": "February2020",
-                "source": "OC",
-                "destination": "AF",
+                "source": "Oceanic",
+                "destination": "Africa",
                 "count": 8
             }
         ],
         "nodes": [
             {
                 "month": "February2020",
-                "continent": "AS",
+                "continent": "Asia",
                 "covidcases": 73831
             },
             {
                 "month": "February2020",
-                "continent": "AF",
+                "continent": "Africa",
                 "covidcases": 3
             },
             {
                 "month": "February2020",
-                "continent": "NA",
+                "continent": "North America",
                 "covidcases": 37
             },
             {
                 "month": "February2020",
-                "continent": "SA",
+                "continent": "South America",
                 "covidcases": 4
             },
             {
                 "month": "February2020",
-                "continent": "EU",
+                "continent": "Europe",
                 "covidcases": 1489
             },
             {
                 "month": "February2020",
-                "continent": "OC",
+                "continent": "Oceanic",
                 "covidcases": 18
             }
         ]
@@ -507,250 +507,250 @@
         "links": [
             {
                 "month": "March2020",
-                "source": "NA",
-                "destination": "NA",
+                "source": "North America",
+                "destination": "North America",
                 "count": 859757
             },
             {
                 "month": "March2020",
-                "source": "NA",
-                "destination": "EU",
+                "source": "North America",
+                "destination": "Europe",
                 "count": 10105
             },
             {
                 "month": "March2020",
-                "source": "EU",
-                "destination": "EU",
+                "source": "Europe",
+                "destination": "Europe",
                 "count": 242460
             },
             {
                 "month": "March2020",
-                "source": "EU",
-                "destination": "AF",
+                "source": "Europe",
+                "destination": "Africa",
                 "count": 1522
             },
             {
                 "month": "March2020",
-                "source": "EU",
-                "destination": "NA",
+                "source": "Europe",
+                "destination": "North America",
                 "count": 10002
             },
             {
                 "month": "March2020",
-                "source": "EU",
-                "destination": "AS",
+                "source": "Europe",
+                "destination": "Asia",
                 "count": 13118
             },
             {
                 "month": "March2020",
-                "source": "EU",
-                "destination": "SA",
+                "source": "Europe",
+                "destination": "South America",
                 "count": 1142
             },
             {
                 "month": "March2020",
-                "source": "AS",
-                "destination": "AS",
+                "source": "Asia",
+                "destination": "Asia",
                 "count": 65498
             },
             {
                 "month": "March2020",
-                "source": "OC",
-                "destination": "OC",
+                "source": "Oceanic",
+                "destination": "Oceanic",
                 "count": 60111
             },
             {
                 "month": "March2020",
-                "source": "AF",
-                "destination": "EU",
+                "source": "Africa",
+                "destination": "Europe",
                 "count": 2386
             },
             {
                 "month": "March2020",
-                "source": "AF",
-                "destination": "AS",
+                "source": "Africa",
+                "destination": "Asia",
                 "count": 429
             },
             {
                 "month": "March2020",
-                "source": "NA",
-                "destination": "AS",
+                "source": "North America",
+                "destination": "Asia",
                 "count": 3963
             },
             {
                 "month": "March2020",
-                "source": "SA",
-                "destination": "SA",
+                "source": "South America",
+                "destination": "South America",
                 "count": 12785
             },
             {
                 "month": "March2020",
-                "source": "AF",
-                "destination": "AF",
+                "source": "Africa",
+                "destination": "Africa",
                 "count": 2512
             },
             {
                 "month": "March2020",
-                "source": "AF",
-                "destination": "NA",
+                "source": "Africa",
+                "destination": "North America",
                 "count": 126
             },
             {
                 "month": "March2020",
-                "source": "AF",
-                "destination": "SA",
+                "source": "Africa",
+                "destination": "South America",
                 "count": 71
             },
             {
                 "month": "March2020",
-                "source": "NA",
-                "destination": "OC",
+                "source": "North America",
+                "destination": "Oceanic",
                 "count": 761
             },
             {
                 "month": "March2020",
-                "source": "NA",
-                "destination": "SA",
+                "source": "North America",
+                "destination": "South America",
                 "count": 1844
             },
             {
                 "month": "March2020",
-                "source": "OC",
-                "destination": "NA",
+                "source": "Oceanic",
+                "destination": "North America",
                 "count": 729
             },
             {
                 "month": "March2020",
-                "source": "AS",
-                "destination": "EU",
+                "source": "Asia",
+                "destination": "Europe",
                 "count": 13092
             },
             {
                 "month": "March2020",
-                "source": "AS",
-                "destination": "NA",
+                "source": "Asia",
+                "destination": "North America",
                 "count": 3818
             },
             {
                 "month": "March2020",
-                "source": "AS",
-                "destination": "AF",
+                "source": "Asia",
+                "destination": "Africa",
                 "count": 303
             },
             {
                 "month": "March2020",
-                "source": "SA",
-                "destination": "NA",
+                "source": "South America",
+                "destination": "North America",
                 "count": 1936
             },
             {
                 "month": "March2020",
-                "source": "AS",
-                "destination": "OC",
+                "source": "Asia",
+                "destination": "Oceanic",
                 "count": 2231
             },
             {
                 "month": "March2020",
-                "source": "OC",
-                "destination": "AS",
+                "source": "Oceanic",
+                "destination": "Asia",
                 "count": 2532
             },
             {
                 "month": "March2020",
-                "source": "OC",
-                "destination": "EU",
+                "source": "Oceanic",
+                "destination": "Europe",
                 "count": 71
             },
             {
                 "month": "March2020",
-                "source": "NA",
-                "destination": "AF",
+                "source": "North America",
+                "destination": "Africa",
                 "count": 137
             },
             {
                 "month": "March2020",
-                "source": "EU",
-                "destination": "OC",
+                "source": "Europe",
+                "destination": "Oceanic",
                 "count": 49
             },
             {
                 "month": "March2020",
-                "source": "AS",
-                "destination": "SA",
+                "source": "Asia",
+                "destination": "South America",
                 "count": 79
             },
             {
                 "month": "March2020",
-                "source": "SA",
-                "destination": "EU",
+                "source": "South America",
+                "destination": "Europe",
                 "count": 1167
             },
             {
                 "month": "March2020",
-                "source": "AF",
-                "destination": "OC",
+                "source": "Africa",
+                "destination": "Oceanic",
                 "count": 6
             },
             {
                 "month": "March2020",
-                "source": "SA",
-                "destination": "AF",
+                "source": "South America",
+                "destination": "Africa",
                 "count": 55
             },
             {
                 "month": "March2020",
-                "source": "SA",
-                "destination": "AS",
+                "source": "South America",
+                "destination": "Asia",
                 "count": 83
             },
             {
                 "month": "March2020",
-                "source": "OC",
-                "destination": "AF",
+                "source": "Oceanic",
+                "destination": "Africa",
                 "count": 18
             },
             {
                 "month": "March2020",
-                "source": "OC",
-                "destination": "SA",
+                "source": "Oceanic",
+                "destination": "South America",
                 "count": 14
             },
             {
                 "month": "March2020",
-                "source": "SA",
-                "destination": "OC",
+                "source": "South America",
+                "destination": "Oceanic",
                 "count": 15
             }
         ],
         "nodes": [
             {
                 "month": "March2020",
-                "continent": "AS",
+                "continent": "Asia",
                 "covidcases": 90028
             },
             {
                 "month": "March2020",
-                "continent": "AF",
+                "continent": "Africa",
                 "covidcases": 5780
             },
             {
                 "month": "March2020",
-                "continent": "NA",
+                "continent": "North America",
                 "covidcases": 205084
             },
             {
                 "month": "March2020",
-                "continent": "SA",
+                "continent": "South America",
                 "covidcases": 14488
             },
             {
                 "month": "March2020",
-                "continent": "EU",
+                "continent": "Europe",
                 "covidcases": 478855
             },
             {
                 "month": "March2020",
-                "continent": "OC",
+                "continent": "Oceanic",
                 "covidcases": 5523
             }
         ]
@@ -759,244 +759,244 @@
         "links": [
             {
                 "month": "April2020",
-                "source": "EU",
-                "destination": "EU",
+                "source": "Europe",
+                "destination": "Europe",
                 "count": 53694
             },
             {
                 "month": "April2020",
-                "source": "NA",
-                "destination": "NA",
+                "source": "North America",
+                "destination": "North America",
                 "count": 438295
             },
             {
                 "month": "April2020",
-                "source": "NA",
-                "destination": "EU",
+                "source": "North America",
+                "destination": "Europe",
                 "count": 2930
             },
             {
                 "month": "April2020",
-                "source": "AS",
-                "destination": "EU",
+                "source": "Asia",
+                "destination": "Europe",
                 "count": 4688
             },
             {
                 "month": "April2020",
-                "source": "EU",
-                "destination": "AS",
+                "source": "Europe",
+                "destination": "Asia",
                 "count": 4635
             },
             {
                 "month": "April2020",
-                "source": "NA",
-                "destination": "AS",
+                "source": "North America",
+                "destination": "Asia",
                 "count": 2559
             },
             {
                 "month": "April2020",
-                "source": "OC",
-                "destination": "OC",
+                "source": "Oceanic",
+                "destination": "Oceanic",
                 "count": 19726
             },
             {
                 "month": "April2020",
-                "source": "AS",
-                "destination": "AS",
+                "source": "Asia",
+                "destination": "Asia",
                 "count": 21193
             },
             {
                 "month": "April2020",
-                "source": "OC",
-                "destination": "AS",
+                "source": "Oceanic",
+                "destination": "Asia",
                 "count": 953
             },
             {
                 "month": "April2020",
-                "source": "AS",
-                "destination": "NA",
+                "source": "Asia",
+                "destination": "North America",
                 "count": 2514
             },
             {
                 "month": "April2020",
-                "source": "EU",
-                "destination": "NA",
+                "source": "Europe",
+                "destination": "North America",
                 "count": 2650
             },
             {
                 "month": "April2020",
-                "source": "SA",
-                "destination": "SA",
+                "source": "South America",
+                "destination": "South America",
                 "count": 2479
             },
             {
                 "month": "April2020",
-                "source": "AF",
-                "destination": "AF",
+                "source": "Africa",
+                "destination": "Africa",
                 "count": 165
             },
             {
                 "month": "April2020",
-                "source": "AF",
-                "destination": "AS",
+                "source": "Africa",
+                "destination": "Asia",
                 "count": 126
             },
             {
                 "month": "April2020",
-                "source": "OC",
-                "destination": "NA",
+                "source": "Oceanic",
+                "destination": "North America",
                 "count": 136
             },
             {
                 "month": "April2020",
-                "source": "AF",
-                "destination": "EU",
+                "source": "Africa",
+                "destination": "Europe",
                 "count": 302
             },
             {
                 "month": "April2020",
-                "source": "EU",
-                "destination": "SA",
+                "source": "Europe",
+                "destination": "South America",
                 "count": 178
             },
             {
                 "month": "April2020",
-                "source": "NA",
-                "destination": "OC",
+                "source": "North America",
+                "destination": "Oceanic",
                 "count": 187
             },
             {
                 "month": "April2020",
-                "source": "EU",
-                "destination": "AF",
+                "source": "Europe",
+                "destination": "Africa",
                 "count": 212
             },
             {
                 "month": "April2020",
-                "source": "AS",
-                "destination": "OC",
+                "source": "Asia",
+                "destination": "Oceanic",
                 "count": 888
             },
             {
                 "month": "April2020",
-                "source": "NA",
-                "destination": "SA",
+                "source": "North America",
+                "destination": "South America",
                 "count": 554
             },
             {
                 "month": "April2020",
-                "source": "AS",
-                "destination": "AF",
+                "source": "Asia",
+                "destination": "Africa",
                 "count": 104
             },
             {
                 "month": "April2020",
-                "source": "AS",
-                "destination": "SA",
+                "source": "Asia",
+                "destination": "South America",
                 "count": 32
             },
             {
                 "month": "April2020",
-                "source": "SA",
-                "destination": "EU",
+                "source": "South America",
+                "destination": "Europe",
                 "count": 155
             },
             {
                 "month": "April2020",
-                "source": "AF",
-                "destination": "NA",
+                "source": "Africa",
+                "destination": "North America",
                 "count": 18
             },
             {
                 "month": "April2020",
-                "source": "OC",
-                "destination": "EU",
+                "source": "Oceanic",
+                "destination": "Europe",
                 "count": 15
             },
             {
                 "month": "April2020",
-                "source": "NA",
-                "destination": "AF",
+                "source": "North America",
+                "destination": "Africa",
                 "count": 19
             },
             {
                 "month": "April2020",
-                "source": "SA",
-                "destination": "NA",
+                "source": "South America",
+                "destination": "North America",
                 "count": 606
             },
             {
                 "month": "April2020",
-                "source": "SA",
-                "destination": "AF",
+                "source": "South America",
+                "destination": "Africa",
                 "count": 29
             },
             {
                 "month": "April2020",
-                "source": "SA",
-                "destination": "AS",
+                "source": "South America",
+                "destination": "Asia",
                 "count": 22
             },
             {
                 "month": "April2020",
-                "source": "AF",
-                "destination": "SA",
+                "source": "Africa",
+                "destination": "South America",
                 "count": 32
             },
             {
                 "month": "April2020",
-                "source": "OC",
-                "destination": "SA",
+                "source": "Oceanic",
+                "destination": "South America",
                 "count": 11
             },
             {
                 "month": "April2020",
-                "source": "SA",
-                "destination": "OC",
+                "source": "South America",
+                "destination": "Oceanic",
                 "count": 6
             },
             {
                 "month": "April2020",
-                "source": "EU",
-                "destination": "OC",
+                "source": "Europe",
+                "destination": "Oceanic",
                 "count": 8
             },
             {
                 "month": "April2020",
-                "source": "AF",
-                "destination": "OC",
+                "source": "Africa",
+                "destination": "Oceanic",
                 "count": 1
             }
         ],
         "nodes": [
             {
                 "month": "April2020",
-                "continent": "AS",
+                "continent": "Asia",
                 "covidcases": 229184
             },
             {
                 "month": "April2020",
-                "continent": "AF",
+                "continent": "Africa",
                 "covidcases": 33052
             },
             {
                 "month": "April2020",
-                "continent": "NA",
+                "continent": "North America",
                 "covidcases": 963074
             },
             {
                 "month": "April2020",
-                "continent": "SA",
+                "continent": "South America",
                 "covidcases": 165743
             },
             {
                 "month": "April2020",
-                "continent": "EU",
+                "continent": "Europe",
                 "covidcases": 1002454
             },
             {
                 "month": "April2020",
-                "continent": "OC",
+                "continent": "Oceanic",
                 "covidcases": 4195
             }
         ]
@@ -1005,238 +1005,238 @@
         "links": [
             {
                 "month": "May2020",
-                "source": "NA",
-                "destination": "NA",
+                "source": "North America",
+                "destination": "North America",
                 "count": 565553
             },
             {
                 "month": "May2020",
-                "source": "AS",
-                "destination": "AS",
+                "source": "Asia",
+                "destination": "Asia",
                 "count": 23112
             },
             {
                 "month": "May2020",
-                "source": "EU",
-                "destination": "EU",
+                "source": "Europe",
+                "destination": "Europe",
                 "count": 86285
             },
             {
                 "month": "May2020",
-                "source": "OC",
-                "destination": "OC",
+                "source": "Oceanic",
+                "destination": "Oceanic",
                 "count": 25630
             },
             {
                 "month": "May2020",
-                "source": "NA",
-                "destination": "EU",
+                "source": "North America",
+                "destination": "Europe",
                 "count": 3613
             },
             {
                 "month": "May2020",
-                "source": "NA",
-                "destination": "AS",
+                "source": "North America",
+                "destination": "Asia",
                 "count": 3814
             },
             {
                 "month": "May2020",
-                "source": "EU",
-                "destination": "AS",
+                "source": "Europe",
+                "destination": "Asia",
                 "count": 6320
             },
             {
                 "month": "May2020",
-                "source": "EU",
-                "destination": "NA",
+                "source": "Europe",
+                "destination": "North America",
                 "count": 3359
             },
             {
                 "month": "May2020",
-                "source": "EU",
-                "destination": "AF",
+                "source": "Europe",
+                "destination": "Africa",
                 "count": 386
             },
             {
                 "month": "May2020",
-                "source": "NA",
-                "destination": "OC",
+                "source": "North America",
+                "destination": "Oceanic",
                 "count": 244
             },
             {
                 "month": "May2020",
-                "source": "AS",
-                "destination": "EU",
+                "source": "Asia",
+                "destination": "Europe",
                 "count": 6138
             },
             {
                 "month": "May2020",
-                "source": "AF",
-                "destination": "EU",
+                "source": "Africa",
+                "destination": "Europe",
                 "count": 422
             },
             {
                 "month": "May2020",
-                "source": "AF",
-                "destination": "AF",
+                "source": "Africa",
+                "destination": "Africa",
                 "count": 251
             },
             {
                 "month": "May2020",
-                "source": "AF",
-                "destination": "AS",
+                "source": "Africa",
+                "destination": "Asia",
                 "count": 162
             },
             {
                 "month": "May2020",
-                "source": "AF",
-                "destination": "SA",
+                "source": "Africa",
+                "destination": "South America",
                 "count": 34
             },
             {
                 "month": "May2020",
-                "source": "AS",
-                "destination": "NA",
+                "source": "Asia",
+                "destination": "North America",
                 "count": 3487
             },
             {
                 "month": "May2020",
-                "source": "AS",
-                "destination": "AF",
+                "source": "Asia",
+                "destination": "Africa",
                 "count": 174
             },
             {
                 "month": "May2020",
-                "source": "OC",
-                "destination": "NA",
+                "source": "Oceanic",
+                "destination": "North America",
                 "count": 180
             },
             {
                 "month": "May2020",
-                "source": "OC",
-                "destination": "SA",
+                "source": "Oceanic",
+                "destination": "South America",
                 "count": 22
             },
             {
                 "month": "May2020",
-                "source": "SA",
-                "destination": "SA",
+                "source": "South America",
+                "destination": "South America",
                 "count": 2735
             },
             {
                 "month": "May2020",
-                "source": "SA",
-                "destination": "AS",
+                "source": "South America",
+                "destination": "Asia",
                 "count": 50
             },
             {
                 "month": "May2020",
-                "source": "SA",
-                "destination": "NA",
+                "source": "South America",
+                "destination": "North America",
                 "count": 700
             },
             {
                 "month": "May2020",
-                "source": "NA",
-                "destination": "SA",
+                "source": "North America",
+                "destination": "South America",
                 "count": 678
             },
             {
                 "month": "May2020",
-                "source": "EU",
-                "destination": "SA",
+                "source": "Europe",
+                "destination": "South America",
                 "count": 254
             },
             {
                 "month": "May2020",
-                "source": "AS",
-                "destination": "OC",
+                "source": "Asia",
+                "destination": "Oceanic",
                 "count": 979
             },
             {
                 "month": "May2020",
-                "source": "AS",
-                "destination": "SA",
+                "source": "Asia",
+                "destination": "South America",
                 "count": 58
             },
             {
                 "month": "May2020",
-                "source": "SA",
-                "destination": "EU",
+                "source": "South America",
+                "destination": "Europe",
                 "count": 241
             },
             {
                 "month": "May2020",
-                "source": "OC",
-                "destination": "AS",
+                "source": "Oceanic",
+                "destination": "Asia",
                 "count": 1076
             },
             {
                 "month": "May2020",
-                "source": "NA",
-                "destination": "AF",
+                "source": "North America",
+                "destination": "Africa",
                 "count": 7
             },
             {
                 "month": "May2020",
-                "source": "SA",
-                "destination": "OC",
+                "source": "South America",
+                "destination": "Oceanic",
                 "count": 20
             },
             {
                 "month": "May2020",
-                "source": "SA",
-                "destination": "AF",
+                "source": "South America",
+                "destination": "Africa",
                 "count": 32
             },
             {
                 "month": "May2020",
-                "source": "AF",
-                "destination": "NA",
+                "source": "Africa",
+                "destination": "North America",
                 "count": 12
             },
             {
                 "month": "May2020",
-                "source": "EU",
-                "destination": "OC",
+                "source": "Europe",
+                "destination": "Oceanic",
                 "count": 17
             },
             {
                 "month": "May2020",
-                "source": "OC",
-                "destination": "EU",
+                "source": "Oceanic",
+                "destination": "Europe",
                 "count": 25
             }
         ],
         "nodes": [
             {
                 "month": "May2020",
-                "continent": "AS",
+                "continent": "Asia",
                 "covidcases": 555365
             },
             {
                 "month": "May2020",
-                "continent": "AF",
+                "continent": "Africa",
                 "covidcases": 107968
             },
             {
                 "month": "May2020",
-                "continent": "NA",
+                "continent": "North America",
                 "covidcases": 859721
             },
             {
                 "month": "May2020",
-                "continent": "SA",
+                "continent": "South America",
                 "covidcases": 721449
             },
             {
                 "month": "May2020",
-                "continent": "EU",
+                "continent": "Europe",
                 "covidcases": 663189
             },
             {
                 "month": "May2020",
-                "continent": "OC",
+                "continent": "Oceanic",
                 "covidcases": 1222
             }
         ]
@@ -1245,244 +1245,244 @@
         "links": [
             {
                 "month": "June2020",
-                "source": "AS",
-                "destination": "AS",
+                "source": "Asia",
+                "destination": "Asia",
                 "count": 34244
             },
             {
                 "month": "June2020",
-                "source": "NA",
-                "destination": "NA",
+                "source": "North America",
+                "destination": "North America",
                 "count": 713674
             },
             {
                 "month": "June2020",
-                "source": "AS",
-                "destination": "OC",
+                "source": "Asia",
+                "destination": "Oceanic",
                 "count": 867
             },
             {
                 "month": "June2020",
-                "source": "AS",
-                "destination": "EU",
+                "source": "Asia",
+                "destination": "Europe",
                 "count": 6631
             },
             {
                 "month": "June2020",
-                "source": "OC",
-                "destination": "OC",
+                "source": "Oceanic",
+                "destination": "Oceanic",
                 "count": 32327
             },
             {
                 "month": "June2020",
-                "source": "NA",
-                "destination": "EU",
+                "source": "North America",
+                "destination": "Europe",
                 "count": 4033
             },
             {
                 "month": "June2020",
-                "source": "EU",
-                "destination": "EU",
+                "source": "Europe",
+                "destination": "Europe",
                 "count": 131442
             },
             {
                 "month": "June2020",
-                "source": "NA",
-                "destination": "AS",
+                "source": "North America",
+                "destination": "Asia",
                 "count": 3622
             },
             {
                 "month": "June2020",
-                "source": "OC",
-                "destination": "NA",
+                "source": "Oceanic",
+                "destination": "North America",
                 "count": 184
             },
             {
                 "month": "June2020",
-                "source": "OC",
-                "destination": "AS",
+                "source": "Oceanic",
+                "destination": "Asia",
                 "count": 970
             },
             {
                 "month": "June2020",
-                "source": "AS",
-                "destination": "NA",
+                "source": "Asia",
+                "destination": "North America",
                 "count": 3433
             },
             {
                 "month": "June2020",
-                "source": "AF",
-                "destination": "EU",
+                "source": "Africa",
+                "destination": "Europe",
                 "count": 607
             },
             {
                 "month": "June2020",
-                "source": "EU",
-                "destination": "AF",
+                "source": "Europe",
+                "destination": "Africa",
                 "count": 500
             },
             {
                 "month": "June2020",
-                "source": "EU",
-                "destination": "NA",
+                "source": "Europe",
+                "destination": "North America",
                 "count": 3850
             },
             {
                 "month": "June2020",
-                "source": "EU",
-                "destination": "AS",
+                "source": "Europe",
+                "destination": "Asia",
                 "count": 6662
             },
             {
                 "month": "June2020",
-                "source": "AF",
-                "destination": "AS",
+                "source": "Africa",
+                "destination": "Asia",
                 "count": 186
             },
             {
                 "month": "June2020",
-                "source": "NA",
-                "destination": "SA",
+                "source": "North America",
+                "destination": "South America",
                 "count": 703
             },
             {
                 "month": "June2020",
-                "source": "EU",
-                "destination": "SA",
+                "source": "Europe",
+                "destination": "South America",
                 "count": 356
             },
             {
                 "month": "June2020",
-                "source": "AF",
-                "destination": "AF",
+                "source": "Africa",
+                "destination": "Africa",
                 "count": 578
             },
             {
                 "month": "June2020",
-                "source": "SA",
-                "destination": "SA",
+                "source": "South America",
+                "destination": "South America",
                 "count": 3436
             },
             {
                 "month": "June2020",
-                "source": "NA",
-                "destination": "OC",
+                "source": "North America",
+                "destination": "Oceanic",
                 "count": 235
             },
             {
                 "month": "June2020",
-                "source": "AF",
-                "destination": "SA",
+                "source": "Africa",
+                "destination": "South America",
                 "count": 41
             },
             {
                 "month": "June2020",
-                "source": "AS",
-                "destination": "AF",
+                "source": "Asia",
+                "destination": "Africa",
                 "count": 223
             },
             {
                 "month": "June2020",
-                "source": "OC",
-                "destination": "EU",
+                "source": "Oceanic",
+                "destination": "Europe",
                 "count": 14
             },
             {
                 "month": "June2020",
-                "source": "AS",
-                "destination": "SA",
+                "source": "Asia",
+                "destination": "South America",
                 "count": 39
             },
             {
                 "month": "June2020",
-                "source": "SA",
-                "destination": "EU",
+                "source": "South America",
+                "destination": "Europe",
                 "count": 318
             },
             {
                 "month": "June2020",
-                "source": "SA",
-                "destination": "NA",
+                "source": "South America",
+                "destination": "North America",
                 "count": 657
             },
             {
                 "month": "June2020",
-                "source": "SA",
-                "destination": "AF",
+                "source": "South America",
+                "destination": "Africa",
                 "count": 48
             },
             {
                 "month": "June2020",
-                "source": "SA",
-                "destination": "AS",
+                "source": "South America",
+                "destination": "Asia",
                 "count": 33
             },
             {
                 "month": "June2020",
-                "source": "SA",
-                "destination": "OC",
+                "source": "South America",
+                "destination": "Oceanic",
                 "count": 20
             },
             {
                 "month": "June2020",
-                "source": "EU",
-                "destination": "OC",
+                "source": "Europe",
+                "destination": "Oceanic",
                 "count": 6
             },
             {
                 "month": "June2020",
-                "source": "AF",
-                "destination": "NA",
+                "source": "Africa",
+                "destination": "North America",
                 "count": 17
             },
             {
                 "month": "June2020",
-                "source": "NA",
-                "destination": "AF",
+                "source": "North America",
+                "destination": "Africa",
                 "count": 14
             },
             {
                 "month": "June2020",
-                "source": "AF",
-                "destination": "OC",
+                "source": "Africa",
+                "destination": "Oceanic",
                 "count": 3
             },
             {
                 "month": "June2020",
-                "source": "OC",
-                "destination": "SA",
+                "source": "Oceanic",
+                "destination": "South America",
                 "count": 17
             }
         ],
         "nodes": [
             {
                 "month": "June2020",
-                "continent": "AS",
+                "continent": "Asia",
                 "covidcases": 1090404
             },
             {
                 "month": "June2020",
-                "continent": "AF",
+                "continent": "Africa",
                 "covidcases": 258002
             },
             {
                 "month": "June2020",
-                "continent": "NA",
+                "continent": "North America",
                 "covidcases": 1058325
             },
             {
                 "month": "June2020",
-                "continent": "SA",
+                "continent": "South America",
                 "covidcases": 1326739
             },
             {
                 "month": "June2020",
-                "continent": "EU",
+                "continent": "Europe",
                 "covidcases": 520948
             },
             {
                 "month": "June2020",
-                "continent": "OC",
+                "continent": "Oceanic",
                 "covidcases": 4853
             }
         ]
@@ -1491,250 +1491,250 @@
         "links": [
             {
                 "month": "July2020",
-                "source": "EU",
-                "destination": "EU",
+                "source": "Europe",
+                "destination": "Europe",
                 "count": 241599
             },
             {
                 "month": "July2020",
-                "source": "NA",
-                "destination": "NA",
+                "source": "North America",
+                "destination": "North America",
                 "count": 849208
             },
             {
                 "month": "July2020",
-                "source": "AS",
-                "destination": "EU",
+                "source": "Asia",
+                "destination": "Europe",
                 "count": 9428
             },
             {
                 "month": "July2020",
-                "source": "AS",
-                "destination": "AS",
+                "source": "Asia",
+                "destination": "Asia",
                 "count": 41425
             },
             {
                 "month": "July2020",
-                "source": "OC",
-                "destination": "OC",
+                "source": "Oceanic",
+                "destination": "Oceanic",
                 "count": 37532
             },
             {
                 "month": "July2020",
-                "source": "EU",
-                "destination": "AF",
+                "source": "Europe",
+                "destination": "Africa",
                 "count": 890
             },
             {
                 "month": "July2020",
-                "source": "EU",
-                "destination": "AS",
+                "source": "Europe",
+                "destination": "Asia",
                 "count": 8870
             },
             {
                 "month": "July2020",
-                "source": "AF",
-                "destination": "EU",
+                "source": "Africa",
+                "destination": "Europe",
                 "count": 1018
             },
             {
                 "month": "July2020",
-                "source": "NA",
-                "destination": "AS",
+                "source": "North America",
+                "destination": "Asia",
                 "count": 3823
             },
             {
                 "month": "July2020",
-                "source": "EU",
-                "destination": "NA",
+                "source": "Europe",
+                "destination": "North America",
                 "count": 4749
             },
             {
                 "month": "July2020",
-                "source": "OC",
-                "destination": "NA",
+                "source": "Oceanic",
+                "destination": "North America",
                 "count": 213
             },
             {
                 "month": "July2020",
-                "source": "SA",
-                "destination": "SA",
+                "source": "South America",
+                "destination": "South America",
                 "count": 4166
             },
             {
                 "month": "July2020",
-                "source": "AS",
-                "destination": "AF",
+                "source": "Asia",
+                "destination": "Africa",
                 "count": 258
             },
             {
                 "month": "July2020",
-                "source": "OC",
-                "destination": "AS",
+                "source": "Oceanic",
+                "destination": "Asia",
                 "count": 1032
             },
             {
                 "month": "July2020",
-                "source": "AF",
-                "destination": "AF",
+                "source": "Africa",
+                "destination": "Africa",
                 "count": 839
             },
             {
                 "month": "July2020",
-                "source": "NA",
-                "destination": "SA",
+                "source": "North America",
+                "destination": "South America",
                 "count": 718
             },
             {
                 "month": "July2020",
-                "source": "AS",
-                "destination": "NA",
+                "source": "Asia",
+                "destination": "North America",
                 "count": 3582
             },
             {
                 "month": "July2020",
-                "source": "NA",
-                "destination": "EU",
+                "source": "North America",
+                "destination": "Europe",
                 "count": 4896
             },
             {
                 "month": "July2020",
-                "source": "AF",
-                "destination": "AS",
+                "source": "Africa",
+                "destination": "Asia",
                 "count": 255
             },
             {
                 "month": "July2020",
-                "source": "NA",
-                "destination": "OC",
+                "source": "North America",
+                "destination": "Oceanic",
                 "count": 259
             },
             {
                 "month": "July2020",
-                "source": "SA",
-                "destination": "NA",
+                "source": "South America",
+                "destination": "North America",
                 "count": 678
             },
             {
                 "month": "July2020",
-                "source": "EU",
-                "destination": "SA",
+                "source": "Europe",
+                "destination": "South America",
                 "count": 396
             },
             {
                 "month": "July2020",
-                "source": "AF",
-                "destination": "NA",
+                "source": "Africa",
+                "destination": "North America",
                 "count": 41
             },
             {
                 "month": "July2020",
-                "source": "AS",
-                "destination": "OC",
+                "source": "Asia",
+                "destination": "Oceanic",
                 "count": 933
             },
             {
                 "month": "July2020",
-                "source": "SA",
-                "destination": "OC",
+                "source": "South America",
+                "destination": "Oceanic",
                 "count": 4
             },
             {
                 "month": "July2020",
-                "source": "SA",
-                "destination": "AF",
+                "source": "South America",
+                "destination": "Africa",
                 "count": 34
             },
             {
                 "month": "July2020",
-                "source": "SA",
-                "destination": "EU",
+                "source": "South America",
+                "destination": "Europe",
                 "count": 345
             },
             {
                 "month": "July2020",
-                "source": "AS",
-                "destination": "SA",
+                "source": "Asia",
+                "destination": "South America",
                 "count": 42
             },
             {
                 "month": "July2020",
-                "source": "SA",
-                "destination": "AS",
+                "source": "South America",
+                "destination": "Asia",
                 "count": 49
             },
             {
                 "month": "July2020",
-                "source": "AF",
-                "destination": "SA",
+                "source": "Africa",
+                "destination": "South America",
                 "count": 34
             },
             {
                 "month": "July2020",
-                "source": "EU",
-                "destination": "OC",
+                "source": "Europe",
+                "destination": "Oceanic",
                 "count": 3
             },
             {
                 "month": "July2020",
-                "source": "NA",
-                "destination": "AF",
+                "source": "North America",
+                "destination": "Africa",
                 "count": 32
             },
             {
                 "month": "July2020",
-                "source": "OC",
-                "destination": "SA",
+                "source": "Oceanic",
+                "destination": "South America",
                 "count": 4
             },
             {
                 "month": "July2020",
-                "source": "OC",
-                "destination": "EU",
+                "source": "Oceanic",
+                "destination": "Europe",
                 "count": 5
             },
             {
                 "month": "July2020",
-                "source": "OC",
-                "destination": "AF",
+                "source": "Oceanic",
+                "destination": "Africa",
                 "count": 1
             },
             {
                 "month": "July2020",
-                "source": "AF",
-                "destination": "OC",
+                "source": "Africa",
+                "destination": "Oceanic",
                 "count": 1
             }
         ],
         "nodes": [
             {
                 "month": "July2020",
-                "continent": "AS",
+                "continent": "Asia",
                 "covidcases": 1864116
             },
             {
                 "month": "July2020",
-                "continent": "AF",
+                "continent": "Africa",
                 "covidcases": 523359
             },
             {
                 "month": "July2020",
-                "continent": "NA",
+                "continent": "North America",
                 "covidcases": 2283220
             },
             {
                 "month": "July2020",
-                "continent": "SA",
+                "continent": "South America",
                 "covidcases": 1873414
             },
             {
                 "month": "July2020",
-                "continent": "EU",
+                "continent": "Europe",
                 "covidcases": 584617
             },
             {
                 "month": "July2020",
-                "continent": "OC",
+                "continent": "Oceanic",
                 "covidcases": 13884
             }
         ]
@@ -1742,245 +1742,233 @@
     "August": {
         "links": [
             {
-                "month": "April2020",
-                "source": "EU",
-                "destination": "EU",
-                "count": 53694
+                "month": "August2020",
+                "source": "North America",
+                "destination": "North America",
+                "count": 888189
             },
             {
-                "month": "April2020",
-                "source": "NA",
-                "destination": "NA",
-                "count": 438295
+                "month": "August2020",
+                "source": "Europe",
+                "destination": "Europe",
+                "count": 280155
             },
             {
-                "month": "April2020",
-                "source": "NA",
-                "destination": "EU",
-                "count": 2930
+                "month": "August2020",
+                "source": "North America",
+                "destination": "Europe",
+                "count": 5728
             },
             {
-                "month": "April2020",
-                "source": "AS",
-                "destination": "EU",
-                "count": 4688
+                "month": "August2020",
+                "source": "North America",
+                "destination": "Asia",
+                "count": 3999
             },
             {
-                "month": "April2020",
-                "source": "EU",
-                "destination": "AS",
-                "count": 4635
+                "month": "August2020",
+                "source": "North America",
+                "destination": "South America",
+                "count": 842
             },
             {
-                "month": "April2020",
-                "source": "NA",
-                "destination": "AS",
-                "count": 2559
+                "month": "August2020",
+                "source": "Europe",
+                "destination": "North America",
+                "count": 5486
             },
             {
-                "month": "April2020",
-                "source": "OC",
-                "destination": "OC",
-                "count": 19726
+                "month": "August2020",
+                "source": "Africa",
+                "destination": "Europe",
+                "count": 1010
             },
             {
-                "month": "April2020",
-                "source": "AS",
-                "destination": "AS",
-                "count": 21193
+                "month": "August2020",
+                "source": "North America",
+                "destination": "Africa",
+                "count": 34
             },
             {
-                "month": "April2020",
-                "source": "OC",
-                "destination": "AS",
-                "count": 953
+                "month": "August2020",
+                "source": "Europe",
+                "destination": "Africa",
+                "count": 971
             },
             {
-                "month": "April2020",
-                "source": "AS",
-                "destination": "NA",
-                "count": 2514
+                "month": "August2020",
+                "source": "Europe",
+                "destination": "Asia",
+                "count": 12789
             },
             {
-                "month": "April2020",
-                "source": "EU",
-                "destination": "NA",
-                "count": 2650
+                "month": "August2020",
+                "source": "Europe",
+                "destination": "South America",
+                "count": 448
             },
             {
-                "month": "April2020",
-                "source": "SA",
-                "destination": "SA",
-                "count": 2479
+                "month": "August2020",
+                "source": "Africa",
+                "destination": "Africa",
+                "count": 975
             },
             {
-                "month": "April2020",
-                "source": "AF",
-                "destination": "AF",
-                "count": 165
+                "month": "August2020",
+                "source": "Africa",
+                "destination": "Asia",
+                "count": 222
             },
             {
-                "month": "April2020",
-                "source": "AF",
-                "destination": "AS",
-                "count": 126
+                "month": "August2020",
+                "source": "North America",
+                "destination": "Oceanic",
+                "count": 294
             },
             {
-                "month": "April2020",
-                "source": "OC",
-                "destination": "NA",
-                "count": 136
+                "month": "August2020",
+                "source": "Asia",
+                "destination": "Europe",
+                "count": 12761
             },
             {
-                "month": "April2020",
-                "source": "AF",
-                "destination": "EU",
-                "count": 302
+                "month": "August2020",
+                "source": "Asia",
+                "destination": "Asia",
+                "count": 43096
             },
             {
-                "month": "April2020",
-                "source": "EU",
-                "destination": "SA",
-                "count": 178
+                "month": "August2020",
+                "source": "Oceanic",
+                "destination": "Oceanic",
+                "count": 28570
             },
             {
-                "month": "April2020",
-                "source": "NA",
-                "destination": "OC",
-                "count": 187
+                "month": "August2020",
+                "source": "South America",
+                "destination": "South America",
+                "count": 4993
             },
             {
-                "month": "April2020",
-                "source": "EU",
-                "destination": "AF",
-                "count": 212
+                "month": "August2020",
+                "source": "South America",
+                "destination": "Europe",
+                "count": 382
             },
             {
-                "month": "April2020",
-                "source": "AS",
-                "destination": "OC",
-                "count": 888
+                "month": "August2020",
+                "source": "South America",
+                "destination": "North America",
+                "count": 750
             },
             {
-                "month": "April2020",
-                "source": "NA",
-                "destination": "SA",
-                "count": 554
+                "month": "August2020",
+                "source": "Africa",
+                "destination": "North America",
+                "count": 33
             },
             {
-                "month": "April2020",
-                "source": "AS",
-                "destination": "AF",
-                "count": 104
+                "month": "August2020",
+                "source": "Asia",
+                "destination": "North America",
+                "count": 3088
             },
             {
-                "month": "April2020",
-                "source": "AS",
-                "destination": "SA",
-                "count": 32
+                "month": "August2020",
+                "source": "Oceanic",
+                "destination": "Asia",
+                "count": 1106
             },
             {
-                "month": "April2020",
-                "source": "SA",
-                "destination": "EU",
-                "count": 155
+                "month": "August2020",
+                "source": "Asia",
+                "destination": "Africa",
+                "count": 260
             },
             {
-                "month": "April2020",
-                "source": "AF",
-                "destination": "NA",
-                "count": 18
+                "month": "August2020",
+                "source": "Asia",
+                "destination": "Oceanic",
+                "count": 1014
             },
             {
-                "month": "April2020",
-                "source": "OC",
-                "destination": "EU",
-                "count": 15
+                "month": "August2020",
+                "source": "South America",
+                "destination": "Asia",
+                "count": 57
             },
             {
-                "month": "April2020",
-                "source": "NA",
-                "destination": "AF",
-                "count": 19
+                "month": "August2020",
+                "source": "Oceanic",
+                "destination": "North America",
+                "count": 228
             },
             {
-                "month": "April2020",
-                "source": "SA",
-                "destination": "NA",
-                "count": 606
+                "month": "August2020",
+                "source": "Oceanic",
+                "destination": "Africa",
+                "count": 1
             },
             {
-                "month": "April2020",
-                "source": "SA",
-                "destination": "AF",
-                "count": 29
+                "month": "August2020",
+                "source": "Asia",
+                "destination": "South America",
+                "count": 64
             },
             {
-                "month": "April2020",
-                "source": "SA",
-                "destination": "AS",
-                "count": 22
+                "month": "August2020",
+                "source": "Africa",
+                "destination": "South America",
+                "count": 3
             },
             {
-                "month": "April2020",
-                "source": "AF",
-                "destination": "SA",
-                "count": 32
+                "month": "August2020",
+                "source": "South America",
+                "destination": "Oceanic",
+                "count": 4
             },
             {
-                "month": "April2020",
-                "source": "OC",
-                "destination": "SA",
-                "count": 11
+                "month": "August2020",
+                "source": "Oceanic",
+                "destination": "Europe",
+                "count": 4
             },
             {
-                "month": "April2020",
-                "source": "SA",
-                "destination": "OC",
-                "count": 6
-            },
-            {
-                "month": "April2020",
-                "source": "EU",
-                "destination": "OC",
-                "count": 8
-            },
-            {
-                "month": "April2020",
-                "source": "AF",
-                "destination": "OC",
+                "month": "August2020",
+                "source": "Africa",
+                "destination": "Oceanic",
                 "count": 1
             }
         ],
         "nodes": [
             {
                 "month": "August2020",
-                "continent": "AS",
+                "continent": "Asia",
                 "covidcases": 2728141
             },
             {
                 "month": "August2020",
-                "continent": "AF",
+                "continent": "Africa",
                 "covidcases": 324090
             },
             {
                 "month": "August2020",
-                "continent": "NA",
+                "continent": "North America",
                 "covidcases": 1787994
             },
             {
                 "month": "August2020",
-                "continent": "SA",
+                "continent": "South America",
                 "covidcases": 2199846
             },
             {
                 "month": "August2020",
-                "continent": "EU",
+                "continent": "Europe",
                 "covidcases": 830396
             },
             {
                 "month": "August2020",
-                "continent": "OC",
+                "continent": "Oceanic",
                 "covidcases": 12704
             }
         ]
@@ -1989,232 +1977,232 @@
         "links": [
             {
                 "month": "September2020",
-                "source": "OC",
-                "destination": "OC",
+                "source": "Oceanic",
+                "destination": "Oceanic",
                 "count": 31507
             },
             {
                 "month": "September2020",
-                "source": "OC",
-                "destination": "AS",
+                "source": "Oceanic",
+                "destination": "Asia",
                 "count": 1062
             },
             {
                 "month": "September2020",
-                "source": "OC",
-                "destination": "NA",
+                "source": "Oceanic",
+                "destination": "North America",
                 "count": 243
             },
             {
                 "month": "September2020",
-                "source": "NA",
-                "destination": "NA",
+                "source": "North America",
+                "destination": "North America",
                 "count": 834110
             },
             {
                 "month": "September2020",
-                "source": "NA",
-                "destination": "AS",
+                "source": "North America",
+                "destination": "Asia",
                 "count": 4020
             },
             {
                 "month": "September2020",
-                "source": "NA",
-                "destination": "EU",
+                "source": "North America",
+                "destination": "Europe",
                 "count": 5909
             },
             {
                 "month": "September2020",
-                "source": "EU",
-                "destination": "EU",
+                "source": "Europe",
+                "destination": "Europe",
                 "count": 261906
             },
             {
                 "month": "September2020",
-                "source": "EU",
-                "destination": "NA",
+                "source": "Europe",
+                "destination": "North America",
                 "count": 5684
             },
             {
                 "month": "September2020",
-                "source": "EU",
-                "destination": "AS",
+                "source": "Europe",
+                "destination": "Asia",
                 "count": 14329
             },
             {
                 "month": "September2020",
-                "source": "AS",
-                "destination": "AS",
+                "source": "Asia",
+                "destination": "Asia",
                 "count": 44336
             },
             {
                 "month": "September2020",
-                "source": "AS",
-                "destination": "EU",
+                "source": "Asia",
+                "destination": "Europe",
                 "count": 14321
             },
             {
                 "month": "September2020",
-                "source": "SA",
-                "destination": "SA",
+                "source": "South America",
+                "destination": "South America",
                 "count": 7657
             },
             {
                 "month": "September2020",
-                "source": "SA",
-                "destination": "NA",
+                "source": "South America",
+                "destination": "North America",
                 "count": 818
             },
             {
                 "month": "September2020",
-                "source": "SA",
-                "destination": "EU",
+                "source": "South America",
+                "destination": "Europe",
                 "count": 457
             },
             {
                 "month": "September2020",
-                "source": "EU",
-                "destination": "AF",
+                "source": "Europe",
+                "destination": "Africa",
                 "count": 1076
             },
             {
                 "month": "September2020",
-                "source": "AS",
-                "destination": "AF",
+                "source": "Asia",
+                "destination": "Africa",
                 "count": 607
             },
             {
                 "month": "September2020",
-                "source": "NA",
-                "destination": "SA",
+                "source": "North America",
+                "destination": "South America",
                 "count": 850
             },
             {
                 "month": "September2020",
-                "source": "AS",
-                "destination": "NA",
+                "source": "Asia",
+                "destination": "North America",
                 "count": 3757
             },
             {
                 "month": "September2020",
-                "source": "AS",
-                "destination": "OC",
+                "source": "Asia",
+                "destination": "Oceanic",
                 "count": 1091
             },
             {
                 "month": "September2020",
-                "source": "NA",
-                "destination": "OC",
+                "source": "North America",
+                "destination": "Oceanic",
                 "count": 336
             },
             {
                 "month": "September2020",
-                "source": "EU",
-                "destination": "SA",
+                "source": "Europe",
+                "destination": "South America",
                 "count": 509
             },
             {
                 "month": "September2020",
-                "source": "AF",
-                "destination": "EU",
+                "source": "Africa",
+                "destination": "Europe",
                 "count": 1203
             },
             {
                 "month": "September2020",
-                "source": "AF",
-                "destination": "AF",
+                "source": "Africa",
+                "destination": "Africa",
                 "count": 1377
             },
             {
                 "month": "September2020",
-                "source": "AF",
-                "destination": "AS",
+                "source": "Africa",
+                "destination": "Asia",
                 "count": 600
             },
             {
                 "month": "September2020",
-                "source": "NA",
-                "destination": "AF",
+                "source": "North America",
+                "destination": "Africa",
                 "count": 36
             },
             {
                 "month": "September2020",
-                "source": "AF",
-                "destination": "NA",
+                "source": "Africa",
+                "destination": "North America",
                 "count": 39
             },
             {
                 "month": "September2020",
-                "source": "AS",
-                "destination": "SA",
+                "source": "Asia",
+                "destination": "South America",
                 "count": 68
             },
             {
                 "month": "September2020",
-                "source": "SA",
-                "destination": "AS",
+                "source": "South America",
+                "destination": "Asia",
                 "count": 63
             },
             {
                 "month": "September2020",
-                "source": "OC",
-                "destination": "EU",
+                "source": "Oceanic",
+                "destination": "Europe",
                 "count": 9
             },
             {
                 "month": "September2020",
-                "source": "AF",
-                "destination": "OC",
+                "source": "Africa",
+                "destination": "Oceanic",
                 "count": 1
             },
             {
                 "month": "September2020",
-                "source": "SA",
-                "destination": "OC",
+                "source": "South America",
+                "destination": "Oceanic",
                 "count": 4
             },
             {
                 "month": "September2020",
-                "source": "OC",
-                "destination": "AF",
+                "source": "Oceanic",
+                "destination": "Africa",
                 "count": 1
             },
             {
                 "month": "September2020",
-                "source": "SA",
-                "destination": "AF",
+                "source": "South America",
+                "destination": "Africa",
                 "count": 1
             }
         ],
         "nodes": [
             {
                 "month": "September2020",
-                "continent": "AS",
+                "continent": "Asia",
                 "covidcases": 3479518
             },
             {
                 "month": "September2020",
-                "continent": "AF",
+                "continent": "Africa",
                 "covidcases": 229694
             },
             {
                 "month": "September2020",
-                "continent": "NA",
+                "continent": "North America",
                 "covidcases": 1495526
             },
             {
                 "month": "September2020",
-                "continent": "SA",
+                "continent": "South America",
                 "covidcases": 1762746
             },
             {
                 "month": "September2020",
-                "continent": "EU",
+                "continent": "Europe",
                 "covidcases": 1512995
             },
             {
                 "month": "September2020",
-                "continent": "OC",
+                "continent": "Oceanic",
                 "covidcases": 5088
             }
         ]

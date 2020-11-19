@@ -1,41 +1,62 @@
-
 import '../App/App.css';
 import React, {useRef, useEffect} from "react";
-import {select, selectAll, line, curveCardinal, json, scaleOrdinal, scaleLinear, scalePoint, schemeSet3 } from "d3";
+import {select, scaleOrdinal, scaleLinear, scalePoint, schemeSet3 } from "d3";
 import data from '../data/nodes.json';
-
-
 
 //const data = [10,5,20,60,40,70,30,60,70,90,100,30,20,10]
 
-function RegionDiag() {
-const svgRef = useRef();
-const fs = require('fs');
+function ARCDiag(props) {
+  //console.log(props.month);
+ 
+  const svgRef = useRef();
+
+  //function handleClick() {setMonth('February')};
 
 var margin = {top: 0, right: 30, bottom: 50, left: 60},
   width = 650 - margin.left - margin.right,
   height = 400 - margin.top - margin.bottom;
 
 
-
 useEffect(() => {
   //after all the dom elems have been rendered
+ 
   const svg = select(svgRef.current);
-  const apiUrl = './data/nodes.json';
-
-  console.log(data);
-    var allNodes = data.January.nodes.map(function(d){return d.continent});
-    var allGroups = data.January.nodes.map(function(d){return d.continent});
+  svg.selectAll("*").remove();
+ // console.log(props.month);
+  var month = props.month
+    var allNodes = data[month].nodes.map(function(d){return d.continent});
+    var allGroups = data[month].nodes.map(function(d){return d.continent});
     allGroups = [...new Set(allGroups)];
       //console.log(allGroups);
 
     var color = scaleOrdinal()
     .domain(allGroups)
     .range(schemeSet3);
+
+    var maximumCovid = Number.MIN_VALUE;
+    var minimumCovid = Number.MAX_VALUE;
+    data[month].nodes.forEach(d=>{
+      maximumCovid = Math.max(maximumCovid,d.covidcases)
+      minimumCovid =  Math.min(minimumCovid,d.covidcases)
+    }
+    );
+    //console.log(maximumCovid);
+    //console.log(minimumCovid);
     //need to find the max and min number of covid cases on pass to the domain
     var size = scaleLinear()
-    .domain([1,10000])
+    .domain([minimumCovid,maximumCovid])
     .range([3,12]);
+
+    var maximumFlights = Number.MIN_VALUE;
+    var minimumFlights = Number.MAX_VALUE;
+    data[month].links.forEach(d=>{
+      maximumFlights = Math.max(maximumFlights,d.count)
+      minimumFlights =  Math.min(minimumFlights,d.count)
+    }
+    );
+
+    //console.log(maximumFlights);
+    //console.log(minimumFlights);
 
     var x = scalePoint()
     .range([0, width])
@@ -44,23 +65,23 @@ useEffect(() => {
 
     // In my input data, links are provided between nodes -id-, NOT between node names.
   // So I have to do a link between this id and the name
-
   var idToNode = {};
-  data.January.nodes.forEach(function (n) {
+  data[month].nodes.forEach(function (n) {
     idToNode[n.continent] = n;
   });
+//max of particular month number of flights
 
- 
+var widths = scaleLinear()
+.domain([1,20000])
+.range([1,10]);
 
   var links = svg
     .selectAll('mylinks')
-    .data(data.January.links)
+    .data(data[month].links)
     .enter()
     .append('path')
-    .attr("transform", "translate(400 0)")
+    .attr("transform", "translate(10 0)")
     .attr('d', function (d) {
-        console.log(d.source);
-        console.log(d.destination);
       var start = x(idToNode[d.source].continent)    // X position of start node on the X axis
       var end = x(idToNode[d.destination].continent)      // X position of end node
       return ['M', start, height-30,    // the arc starts at the coordinate x=start, y=height-30 (where the starting node is)
@@ -71,18 +92,18 @@ useEffect(() => {
         .join(' ');
     })
     .style("fill", "none")
-    .attr("stroke", "grey")
-    .style("stroke-width", 1)
+    .attr("stroke", "#6456B7")
+    .style("stroke-width", function(d){return widths(d.count);});
 
     //console.log(links);
 
     var nodes = svg
     .selectAll("mynodes")
     //.transform="translate(100 300)"
-    .data(data.January.nodes.sort(function(a,b) { return +b.covidcases - +a.covidcases }))
+    .data(data[month].nodes.sort(function(a,b) { return +b.covidcases - +a.covidcases }))
     .enter()
     .append("circle")
-      .attr("transform", "translate(400 0)")
+      .attr("transform", "translate(10 0)")
       .attr("cx", function(d){ return(x(d.continent))})
       .attr("cy", height-30)
       .attr("r", function(d){ return(2*size(d.covidcases))})
@@ -91,20 +112,21 @@ useEffect(() => {
 
     var labels = svg
     .selectAll("mylabels")
-    .data(data.January.nodes)
+    .data(data[month].nodes)
     .enter()
     .append("text")
       .attr("x", 0)
       .attr("y", 0)
-      .attr("color","black")
+      .attr("fill","white")
       .text(function(d){ return(d.continent)} )
       .style("text-anchor", "end")
       //.attr("transform", "translate(100 0)")
-      .attr("transform", function(d){ return( "translate(" + (x(d.continent)+400) + "," + (height-15) + ")rotate(-45)")})
-      .style("font-size", 10)
+      .attr("transform", function(d){ return( "translate(" + (x(d.continent)+10) + "," + (height-15) + ")rotate(-45)")})
+      .style("font-size", 15)
 
       nodes
       .on('mouseover', function (i,d) {
+        document.getElementById("detailsArcDiagram").innerText= d.continent +" region with "+ d.covidcases+ " covidcases for the month of " + props.month;
         nodes
           .style('opacity', .2)
           //console.log('d', d);
@@ -113,9 +135,9 @@ useEffect(() => {
           .style('opacity', 1)
 
         links
-          .style('stroke', function (link_d) { return link_d.source == d.continent || link_d.destination == d.continent ? color(d.continent) : '#b8b8b8';})
-          .style('stroke-opacity', function (link_d) { return link_d.source == d.continent || link_d.destination == d.continent ? 1 : .2;})
-          .style('stroke-width', function (link_d) { return link_d.source == d.continent || link_d.destination == d.continent ? 4 : 1;})
+          .style('stroke', function (link_d) { return link_d.source === d.continent || link_d.destination === d.continent ? color(d.continent) : '#b8b8b8';})
+          .style('stroke-opacity', function (link_d) { return link_d.source === d.continent || link_d.destination === d.continent ? 1 : .2;})
+          .style('stroke-width', function (link_d) { return link_d.source === d.continent || link_d.destination === d.continent ? widths(link_d.count) : 1;})
         
         labels
           .style("font-size", function(label_d){ return label_d.continent === d.continent ? 16 : 2 } )
@@ -125,11 +147,11 @@ useEffect(() => {
       .on('mouseout', function (d) {
         nodes.style('opacity', 1)
         links
-          .style('stroke', 'grey')
+          .style('stroke', '#6456B7')
           .style('stroke-opacity', .8)
-          .style('stroke-width', '1')
+          .style('stroke-width', function(d){ return widths(d.count);})
         labels
-          .style("font-size", 6 )
+          .style("font-size", 15 )
   
       })
 
@@ -138,10 +160,9 @@ useEffect(() => {
     });
 
   return (
-    <div className="App">
-      <svg ref={svgRef} ></svg>
-    </div>
+    <svg id="acrDiag" ref={svgRef} ></svg>
+
   );
 }
 
-export default RegionDiag;
+export default ARCDiag;

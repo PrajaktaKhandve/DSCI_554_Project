@@ -45,3 +45,50 @@
   width: 100%;
   height: 100%;
 }
+
+#acrDiag{
+  height: 500px;
+  width: 600px;
+  border:1px solid black;
+}
+
+#detailsArcDiagram{
+color: white;
+}
+
+
+.multiLineClass{
+  
+}
+
+.palette{
+
+}
+
+#regionTravel{
+  width: 400px;
+  text-align: center;
+  color: white;
+}
+
+#monthTitle{
+  width: 600px;
+  text-align: center;
+  color: white;
+}
+
+#travelSummary{
+ 
+}
+
+#travelSummarySafety{
+
+  
+}
+
+#detailsArcDiagram{
+  height: 100px;
+  width: 600px;
+  border:1px solid black;
+  text-align: center;
+}

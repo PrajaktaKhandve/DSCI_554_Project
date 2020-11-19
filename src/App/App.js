@@ -5,7 +5,7 @@ import {
   Switch
 } from 'react-router-dom'; 
 import './App.css';
-import RegionDiag from '../components/RegionDiag';
+import Region from '../components/Region';
 import Map from '../components/Map';
 import video from "../data/videoplayback.mkv";
 import './style.css';
@@ -33,7 +33,8 @@ function App() {
             </div>
           </Route>
           <Route path="/region">
-            <RegionDiag />
+            
+            <Region />
           </Route>
         </Switch> 
       </div> 

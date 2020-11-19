@@ -97,7 +97,7 @@ class Map extends Component {
                     .append('g')
                     .attr('transform', 'translate(' + this.margin.left + ', ' + this.margin.top + ')');
         // var path = d3.geoPath(d3.geoMercator());
-        var format = d3.format(',.0f')
+        //var format = d3.format(',.0f')
         var projection = d3.geoMercator()
                             .scale(this.width/6)
                             .translate([this.width/2, this.height/2]);

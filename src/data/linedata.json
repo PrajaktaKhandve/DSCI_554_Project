@@ -1,0 +1,338 @@
+{
+    "Asia": [
+        {
+            "month": "January2020",
+            "departed": 143384,
+            "arrived": 140259,
+            "covid": 9889
+        },
+        {
+            "month":"February2020",
+            "departed": 126185,
+            "arrived": 125278,
+            "covid": 73831
+        },
+        {
+            "month": "March2020",
+            "departed": 85021,
+            "arrived": 85623,
+            "covid": 90028
+        },
+        {
+            "month": "April2020",
+            "departed": 29419,
+            "arrived": 29488,
+            "covid": 229184
+        },
+        {
+            "month": "May2020",
+            "departed": 33948,
+            "arrived": 34534,
+            "covid": 555365
+        },
+        {
+            "month":"June2020",
+            "departed": 45437,
+            "arrived": 45717,
+            "covid": 1090404
+        },
+        {
+            "month":"July2020",
+            "departed": 55668,
+            "arrived": 55454,
+            "covid": 1864116
+        },
+         {
+            "month": "August2020",
+            "departed": 60283,
+            "arrived": 61269,
+            "covid": 2728141
+        },
+       {
+            "month":"September2020",
+            "departed": 64180,
+            "arrived": 64410,
+            "covid": 3479518
+        }
+    ],
+    "North America": [
+        {
+            "month":"January2020",
+            "departed": 957188,
+            "arrived": 957760,
+            "covid": 12
+        },
+        {
+            "month":"February2020",
+            "departed": 998419,
+            "arrived": 998623,
+            "covid": 37
+        },
+        {
+            "month":"March2020",
+            "departed": 876567,
+            "arrived": 876368,
+            "covid": 205084
+        },
+        {
+            "month":"April2020",
+            "departed": 444544,
+            "arrived": 444219,
+            "covid": 963074
+        },
+        {
+            "month":"May2020",
+            "departed": 573909,
+            "arrived": 573291,
+            "covid": 859721
+        },
+        {
+            "month":"June2020",
+            "departed": 722281,
+            "arrived": 721815,
+            "covid": 1058325
+        },
+        {
+            "month":"July2020",
+            "departed": 858936,
+            "arrived": 858471,
+            "covid": 2283220
+        },
+        {
+            "month":"August2020",
+            "departed": 899086,
+            "arrived": 897774,
+            "covid": 1787994
+        },
+        {
+            "month":"September2020",
+            "departed": 845261,
+            "arrived": 844651,
+            "covid": 1495526
+        }
+    ],
+    "South America": [
+       {
+           "month": "January2020",
+            "departed": 19086,
+            "arrived": 19122,
+            "covid": 0
+        },
+        {
+            "month":"February2020",
+            "departed": 22055,
+            "arrived": 22055,
+            "covid": 4
+        },
+        {
+            "month":"March2020",
+            "departed": 16041,
+            "arrived": 15935,
+            "covid": 14488
+        },
+        {
+            "month":"April2020",
+            "departed": 3297,
+            "arrived": 3286,
+            "covid": 165743
+        },
+        {
+            "month":"May2020",
+            "departed": 3778,
+            "arrived": 3781,
+            "covid": 721449
+        },
+       {
+           "month": "June2020",
+            "departed": 4512,
+            "arrived": 4592,
+            "covid": 1326739
+        },
+        {
+            "month":"July2020",
+            "departed": 5276,
+            "arrived": 5360,
+            "covid": 1873414
+        },
+        {
+            "month":"August2020",
+            "departed": 6186,
+            "arrived": 6350,
+            "covid": 2199846
+        },
+        {
+            "month":"September2020",
+            "departed": 9000,
+            "arrived": 9084,
+            "covid": 1762746
+        }
+    ],
+    "Africa": [
+       {
+           "month": "January2020",
+            "departed": 7162,
+            "arrived": 5773,
+            "covid": 0
+        },
+        {
+            "month":"February2020",
+            "departed": 7590,
+            "arrived": 6220,
+            "covid": 3
+        },
+        {
+            "month":"March2020",
+            "departed": 5530,
+            "arrived": 4547,
+            "covid": 5780
+        },
+        {
+            "month":"April2020",
+            "departed": 644,
+            "arrived": 529,
+            "covid": 33052
+        },
+        {
+            "month":"May2020",
+            "departed": 881,
+            "arrived": 850,
+            "covid": 107968
+        },
+        {
+            "month":"June2020",
+            "departed": 1432,
+            "arrived": 1363,
+            "covid": 258002
+        },
+        {
+            "month":"July2020",
+            "departed": 2188,
+            "arrived": 2054,
+            "covid": 523359
+        },
+        {
+            "month":"August2020",
+            "departed": 2244,
+            "arrived": 2241,
+            "covid": 324090
+        },
+       {
+           "month": "September2020",
+            "departed": 3220,
+            "arrived": 3098,
+            "covid": 229694
+        }
+    ],
+    "Oceanic": [
+        {
+            "month":"January2020",
+            "departed": 67267,
+            "arrived": 67124,
+            "covid": 9
+        },
+        {
+            "month":"February2020",
+            "departed": 69283,
+            "arrived": 69109,
+            "covid": 18
+        },
+        {
+            "month":"March2020",
+            "departed": 63475,
+            "arrived": 63173,
+            "covid": 5523
+        },
+        {
+            "month":"April2020",
+            "departed": 20841,
+            "arrived": 20816,
+            "covid": 4195
+        },
+        {
+            "month":"May2020",
+            "departed": 26933,
+            "arrived": 26890,
+            "covid": 1222
+        },
+        {
+            "month":"June2020",
+            "departed": 33512,
+            "arrived": 33458,
+            "covid": 4853
+        },
+        {
+            "month":"July2020",
+            "departed": 38787,
+            "arrived": 38732,
+            "covid": 13884
+        },
+        {
+            "month":"August2020",
+            "departed": 29909,
+            "arrived": 29883,
+            "covid": 12704
+        },
+        {
+            "month":"September2020",
+            "departed": 32822,
+            "arrived": 32939,
+            "covid": 5088
+        }
+    ],
+    "Europe": [
+       {
+           "month": "January2020",
+            "departed": 368657,
+            "arrived": 372706,
+            "covid": 0
+        },
+        {
+            "month":"February2020",
+            "departed": 385916,
+            "arrived": 388163,
+            "covid": 1489
+        },
+        {
+            "month":"March2020",
+            "departed": 268293,
+            "arrived": 269281,
+            "covid": 478855
+        },
+        {
+            "month":"April2020",
+            "departed": 61377,
+            "arrived": 61784,
+            "covid": 1002454
+        },
+        {
+            "month":"May2020",
+            "departed": 96621,
+            "arrived": 96724,
+            "covid": 663189
+        },
+        {
+            "month":"June2020",
+            "departed": 142816,
+            "arrived": 143045,
+            "covid": 520948
+        },
+        {
+            "month":"July2020",
+            "departed": 256507,
+            "arrived": 257291,
+            "covid": 584617
+        },
+        {
+            "month":"August2020",
+            "departed": 299849,
+            "arrived": 300040,
+            "covid": 830396
+        },
+        {
+            "month":"September2020",
+            "departed": 283504,
+            "arrived": 283805,
+            "covid": 1512995
+        }
+    ]
+}
