@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import * as d3 from 'd3';
+import * as d3 from 'd33';
 import './StreamGraph.css';
 import data from '../data/ranking_2019_count.csv';
 // import { csv, layout } from 'd3';
