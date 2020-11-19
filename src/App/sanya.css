@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+#map {
+    position: absolute;
+    top: 20;
+    left: 20;
+    bottom: 0;
+    width: 98%;
+    height: 98%
+}
+
+#some_seconds {
+    font-size: 22px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.path-start {
+    -webkit-transition: stroke-dashoffset 5s ease-in;
+    -moz-transition: stroke-dashoffset 5s ease-in;
+    -o-transition: stroke-dashoffset 5s ease-in;
+    transition: stroke-dashoffset 5s ease-in;
+}
+
+.mapbox_container {
+    position: relative;
+    height: 900px;
+    width: 1000px;
+    display: block;
+    margin-top: 20px;
+}
+
+#map {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+body {
+    background-color: #040c17;
+    color: white;
+}
+
+.marker {
+    background-image: url('mapbox-icon.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.mapboxgl-popup {
+    max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.chart {
+    background: #fff;
+    width: 100%;
+}
+
+p {
+    font: 14px helvetica;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    stroke-width: 2px;
+    shape-rendering: crispEdges;
+}
+
+table,
+th,
+td {
+    border: .02px solid white;
+}
+
+
+/* to manage animation */
+.path-start {
+    -webkit-transition: stroke-dashoffset 5s ease-in;
+    -moz-transition: stroke-dashoffset 5s ease-in;
+    -o-transition: stroke-dashoffset 5s ease-in;
+    transition: stroke-dashoffset 5s ease-in;
+}
+
+.mapbox_container {
+    position: relative;
+    height: 900px;
+    width: 1000px;
+    display: block;
+    margin-top: 20px;
+}
+
+#map {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+body {
+    background-color: #040c17;
+    color: white;
+}
+
+.marker {
+    background-image: url('mapbox-icon.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.mapboxgl-popup {
+    max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+

@@ -23,6 +23,10 @@ module.exports = `<!DOCTYPE html>
                             <li> <a href = "/region" >Region</a></li>
                             <li> <a href = "/map" >Map</a></li>
                             <li> <a href = "/airports" >Airports</a></li>
+                            <li> <a href = "/streamgraph" >Streamgraph</a></li>
+                            <li> <a href = "/radial_bar19" >Radial2019</a></li>
+                            <li> <a href = "/radial_bar20" >Radial2020</a></li>
+                            
                             <li> <a href = "#" class = "active">GET STARTED</a></li>
                         </ul>
                         <form>

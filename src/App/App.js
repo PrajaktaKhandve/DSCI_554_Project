@@ -7,12 +7,16 @@ import {
 import './App.css';
 import RegionDiag from '../components/RegionDiag';
 import Map from '../components/Map';
+// import StreamGraph from '../components/StreamGraph';
+import Stream from '../components/Stream_v3';
+import Radial19 from '../components/Radial_19_v3';
+import Radial20 from '../components/Radial_20_v3';
 import './style.css';
 
 var __html_homepage = require('./document.js');
 var homepage = { __html: __html_homepage };
 
-var __html_sanya = require('./sanya.js');
+var __html_sanya = require('./Sanya.js');
 var sanya = { __html: __html_sanya };
 
 const HomePage = () => (
@@ -55,9 +59,18 @@ function App() {
           </Route>
           <Route path="/airports">
             <Sanya />
+        </Route>
+        <Route path="/streamgraph">
+            <Stream />
+        </Route>
+        <Route path="/radial_bar19">
+            <Radial19 />
+        </Route>
+        <Route path="/radial_bar20">
+            <Radial20 />
           </Route>
         </Switch> 
-      </div> 
+      </div>
   );
 }
 

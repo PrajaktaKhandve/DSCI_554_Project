@@ -1,0 +1,24 @@
+.chart {
+    background: #fff;
+    width: 100%;
+}
+
+p {
+    font: 14px helvetica;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    stroke-width: 2px;
+    shape-rendering: crispEdges;
+}
+.ranking19 {
+    background-color: white;
+    width: 50%;
+}
+.ranking20 {
+    background-color: white;
+    width: 50%;
+}

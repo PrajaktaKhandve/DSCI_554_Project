@@ -1,7 +1,7 @@
 
 import '../App/App.css';
 import React, {useRef, useEffect} from "react";
-import {select, selectAll, line, curveCardinal, json, scaleOrdinal, scaleLinear, scalePoint, schemeSet3 } from "d3";
+import {select, scaleOrdinal, scaleLinear, scalePoint, schemeSet3 } from "d3";
 import data from '../data/nodes.json';
 
 
@@ -10,7 +10,7 @@ import data from '../data/nodes.json';
 
 function RegionDiag() {
 const svgRef = useRef();
-const fs = require('fs');
+// const fs = require('fs');
 
 var margin = {top: 0, right: 30, bottom: 50, left: 60},
   width = 650 - margin.left - margin.right,
@@ -21,7 +21,7 @@ var margin = {top: 0, right: 30, bottom: 50, left: 60},
 useEffect(() => {
   //after all the dom elems have been rendered
   const svg = select(svgRef.current);
-  const apiUrl = './data/nodes.json';
+  // const apiUrl = './data/nodes.json';
 
   console.log(data);
     var allNodes = data.January.nodes.map(function(d){return d.continent});
@@ -113,9 +113,9 @@ useEffect(() => {
           .style('opacity', 1)
 
         links
-          .style('stroke', function (link_d) { return link_d.source == d.continent || link_d.destination == d.continent ? color(d.continent) : '#b8b8b8';})
-          .style('stroke-opacity', function (link_d) { return link_d.source == d.continent || link_d.destination == d.continent ? 1 : .2;})
-          .style('stroke-width', function (link_d) { return link_d.source == d.continent || link_d.destination == d.continent ? 4 : 1;})
+          .style('stroke', function (link_d) { return link_d.source === d.continent || link_d.destination === d.continent ? color(d.continent) : '#b8b8b8';})
+          .style('stroke-opacity', function (link_d) { return link_d.source === d.continent || link_d.destination === d.continent ? 1 : .2;})
+          .style('stroke-width', function (link_d) { return link_d.source === d.continent || link_d.destination === d.continent ? 4 : 1;})
         
         labels
           .style("font-size", function(label_d){ return label_d.continent === d.continent ? 16 : 2 } )
