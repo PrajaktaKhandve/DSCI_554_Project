@@ -4,6 +4,8 @@ import * as topojson from 'topojson';
 import './Map.css';
 import data from '../data/countries-50m.json';
 import covid from '../data/covid19.json';
+import flight from '../data/flight.json';
+import coord from '../data/countries-coord.json';
 
 class Map extends Component {
     constructor(props){
@@ -12,7 +14,7 @@ class Map extends Component {
         this.legend = this.legend.bind(this);
         this.ramp = this.ramp.bind(this); 
         this.loopMonth = this.loopMonth.bind(this);
-        // this.resize = this.resize.bind(this);
+        this.drawArc = this.drawArc.bind(this);
         this.margin = { top: 20, left: 0, bottom: 20, right: 0 };
         this.months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September'];
         this.maxValues = [9802, 69554, 192084, 884003, 718092, 887192, 1921350, 1995178, 2621418];
@@ -22,6 +24,8 @@ class Map extends Component {
         };
         this.world = data;
         this.covid19 = {};
+        this.flight = {};
+        this.coord = coord;
     }
 
     componentDidMount(){
@@ -49,6 +53,42 @@ class Map extends Component {
         }
         d3.select("svg").selectAll("*").remove();
         this.drawMap();
+        this.drawArc();
+    }
+
+    drawArc() {
+        const node = this.node;
+        var svg = d3.select(node)
+                    .append('g')
+                    .attr('transform', 'translate(' + this.margin.left + ', ' + this.margin.top + ')');
+        var projection = d3.geoMercator()
+                .scale(this.width/6)
+                .translate([this.width/2, this.height/2]);
+
+        var line = svg.append("g")
+            .selectAll("path")
+            .data(flight[this.state.month])
+            .enter()
+            .append("path");
+        
+        var strokeWidth = d3.scaleSqrt().domain([0, 200000]).range([0, 50]);
+
+        line.attr("d", function(c) {
+            var d = {
+                source: projection( coord[c.source] ),
+                target: projection( coord[c.destination] ),
+                stroke: +c.count
+            };
+            var dx = d.target[0] - d.source[0],
+            dy = d.target[1] - d.source[1],
+            dr = Math.sqrt(dx * dx + dy * dy);
+            return "M" + d.source[0] + "," + d.source[1] + "A" + dr + "," + dr +
+            " 0 0,1 " + d.target[0] + "," + d.target[1];
+        })
+        .attr("class", d => { return (d.count > 100)? "arc": "hide"})
+        .style("stroke-width", d => strokeWidth(d.count))
+        .append('title')
+        .text(d => `[${d.source}, ${d.destination}] has ${d.count} flight`);
     }
 
     drawMap() {
@@ -57,9 +97,9 @@ class Map extends Component {
                     .append('g')
                     .attr('transform', 'translate(' + this.margin.left + ', ' + this.margin.top + ')');
         // var path = d3.geoPath(d3.geoMercator());
-
+        var format = d3.format(',.0f')
         var projection = d3.geoMercator()
-                            .scale(250)
+                            .scale(this.width/6)
                             .translate([this.width/2, this.height/2]);
         var path = d3.geoPath()
                         .projection(projection);
@@ -78,7 +118,7 @@ class Map extends Component {
         svg.append("g")
             .attr("class", "legend")
             .attr("transform", "translate(" + this.width * 0.65+ ","+ this.height * 0.75 + ")")
-            .append(() => this.legend({ color: color, title: this.covid19.title, width: 360 }));  
+            .append(() => this.legend({ color: color, title: this.covid19.title, width: this.width/3 }));  
         
         // Append Country 
         svg.append("g")
@@ -86,21 +126,15 @@ class Map extends Component {
             .data(topojson.feature(this.world, this.world.objects.countries).features)
             .join("path")
             .attr("fill", d => color(this.covid19[d.properties.name] === undefined || this.covid19[d.properties.name] === 0 ? 1: this.covid19[d.properties.name]))
-            .attr('d', path);
+            .attr('d', path)
+            .append('title')
+            .text(d => `${d.properties.name}`);
 
         // Append Internal Connection between Countries
         svg.append('path')
             .datum(topojson.mesh(this.world, this.world.objects.countries, (a, b) => a !== b))
             .attr("class", "internal-connection")
             .attr('d', path);
-
-        // Append
-        svg.append("path")
-            .datum({type: "LineString", coordinates: [[-77.05, 38.91], [116.35, 39.91]]})
-            .attr("class", "arc")
-            .attr("d", path);
-        
-        // d3.select(window).on("resize", this.resize);
     }
 
     // resize () {

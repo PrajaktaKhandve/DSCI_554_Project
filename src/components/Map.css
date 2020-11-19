@@ -1,8 +1,11 @@
 .arc {
     fill: none;
     stroke: red;
-    stroke-width: 1px;
-    stroke-linecap: round;
+    opacity: 60%;
+}
+
+.hide {
+    display: none;
 }
 
 .map {
