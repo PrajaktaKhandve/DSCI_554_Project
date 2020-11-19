@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <Router basename={'/dsci-554-projects/project-quaranteam'}>
       <App />
     </Router>
   </React.StrictMode>,
