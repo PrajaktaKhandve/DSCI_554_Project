@@ -37,8 +37,11 @@
   }
 }
 
-
-svg{
-  height: 500px;
-  width: 1800px;
+.white-background {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(204,204,204, 0.15);
+  width: 100%;
+  height: 100%;
 }

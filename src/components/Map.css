@@ -5,8 +5,17 @@
     stroke-linecap: round;
 }
 
+.map {
+    position: relative;
+}
+
 .internal-connection {
     fill: none;
     stroke: #9C528B;
     stroke-linejoin: round;
+}
+
+text {
+    color: antiquewhite;
+    font-size: 1vw;
 }

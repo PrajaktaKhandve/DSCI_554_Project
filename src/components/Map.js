@@ -12,18 +12,21 @@ class Map extends Component {
         this.legend = this.legend.bind(this);
         this.ramp = this.ramp.bind(this); 
         this.loopMonth = this.loopMonth.bind(this);
-        this.margin = { top: 80, left: 20, bottom: 0, right: 20 };
+        // this.resize = this.resize.bind(this);
+        this.margin = { top: 20, left: 0, bottom: 20, right: 0 };
         this.months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September'];
         this.maxValues = [9802, 69554, 192084, 884003, 718092, 887192, 1921350, 1995178, 2621418];
         this.state = {
             month: 'January',
             max: 9802
         };
+        this.world = data;
+        this.covid19 = {};
     }
 
     componentDidMount(){
         // wait every 5 sec to refresh to next month
-        this.interval = setInterval(this.loopMonth, 5000);
+        // this.interval = setInterval(this.loopMonth, 5000);
         console.log(window.innerWidth, window.innerHeight);
         this.loopMonth();
     }
@@ -50,18 +53,22 @@ class Map extends Component {
 
     drawMap() {
         const node = this.node;
-        var world = data;
-
         var svg = d3.select(node)
                     .append('g')
                     .attr('transform', 'translate(' + this.margin.left + ', ' + this.margin.top + ')');
-        var path = d3.geoPath(d3.geoMercator());
+        // var path = d3.geoPath(d3.geoMercator());
 
-        var covid19 = {}
-        covid.slice(1).map(item => covid19[item.Country] = +item[this.state.month]);
-        covid19.title = `Confirmed cases in ${this.state.month}`;
+        var projection = d3.geoMercator()
+                            .scale(250)
+                            .translate([this.width/2, this.height/2]);
+        var path = d3.geoPath()
+                        .projection(projection);
 
-        console.log("covid: ", covid19);
+        this.covid19 = {}
+        covid.slice(1).map(item => this.covid19[item.Country] = +item[this.state.month]);
+        this.covid19.title = `Confirmed cases in ${this.state.month}`;
+
+        console.log("covid: ", this.covid19);
         console.log(this.state);
         
         //const logScale = d3.scaleLog().domain([1, this.state.max]);
@@ -70,20 +77,20 @@ class Map extends Component {
         // Append Legend 
         svg.append("g")
             .attr("class", "legend")
-            .attr("transform", "translate(550,400)")
-            .append(() => this.legend({ color: color, title: covid19.title, width: 360 }));  
+            .attr("transform", "translate(" + this.width * 0.65+ ","+ this.height * 0.75 + ")")
+            .append(() => this.legend({ color: color, title: this.covid19.title, width: 360 }));  
         
         // Append Country 
         svg.append("g")
             .selectAll("path")
-            .data(topojson.feature(world, world.objects.countries).features)
+            .data(topojson.feature(this.world, this.world.objects.countries).features)
             .join("path")
-            .attr("fill", d => color(covid19[d.properties.name] === undefined || covid19[d.properties.name] === 0 ? 1: covid19[d.properties.name]))
+            .attr("fill", d => color(this.covid19[d.properties.name] === undefined || this.covid19[d.properties.name] === 0 ? 1: this.covid19[d.properties.name]))
             .attr('d', path);
 
         // Append Internal Connection between Countries
         svg.append('path')
-            .datum(topojson.mesh(world, world.objects.countries, (a, b) => a !== b))
+            .datum(topojson.mesh(this.world, this.world.objects.countries, (a, b) => a !== b))
             .attr("class", "internal-connection")
             .attr('d', path);
 
@@ -92,7 +99,28 @@ class Map extends Component {
             .datum({type: "LineString", coordinates: [[-77.05, 38.91], [116.35, 39.91]]})
             .attr("class", "arc")
             .attr("d", path);
+        
+        // d3.select(window).on("resize", this.resize);
     }
+
+    // resize () {
+    //     const node = this.node;
+    //     var svg = d3.select(node);
+    //     console.log(svg)
+    //     var new_width = parseInt(svg.style('width')) - this.margin.left - this.margin.right;
+    //     var new_height = parseInt(svg.style('height')) - this.margin.top - this.margin.bottom;
+    //     // svg.attr('width', new_width)
+    //     //     .attr('height', new_height)
+        
+    //     var projection = d3.geoMercator()
+    //                         .scale(250)
+    //                         .translate([this.width/2, this.height/2]);
+    //     var path = d3.geoPath()
+    //                     .projection(projection);
+
+    //     console.log("covid: ", this.covid19);
+    //     console.log(this.state);
+    // }
 
     legend({
         color,
@@ -112,6 +140,7 @@ class Map extends Component {
         const svg = d3.create("svg")
             .attr("width", width)
             .attr("height", height)
+            .attr("class", "legend")
             .attr("viewBox", [0, 0, width, height])
             .style("overflow", "visible")
             .style("display", "block");
@@ -139,7 +168,7 @@ class Map extends Component {
                     tickValues = d3.range(n).map(i => d3.quantile(color.domain(), i/(n - 1)));
                 }
                 if (typeof tickFormat !== "function") {
-                    tickFormat = d3.format(tickFormat === undefined ? ",f" : tickFormat);
+                    tickFormat = d3.format(tickFormat === undefined ? ",.0f" : tickFormat);
                 }
             }
         }
@@ -180,6 +209,7 @@ class Map extends Component {
         return (
             <svg
                 ref={ref => this.node = ref}
+                className={"map"}
                 width={this.width} 
                 height={this.height} />
         )    

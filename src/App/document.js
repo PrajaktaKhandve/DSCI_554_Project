@@ -50,7 +50,6 @@ module.exports = `<!DOCTYPE html>
                         <a href = "#"><i class = "fa fa-linkedin"></i></a>
                     </div>
                 </footer>
-                <video src = "../data/videoplayback.mkv" autoplay muted loop></video>
             </div>
         </div>
     </body>
