@@ -48,7 +48,7 @@
 
 #acrDiag{
   height: 500px;
-  width: 600px;
+  width: 550px;
   border:1px solid black;
 }
 
@@ -71,6 +71,12 @@ color: white;
   color: white;
 }
 
+
+.title{
+color: white;
+text-align: center;
+}
+
 #monthTitle{
   width: 600px;
   text-align: center;
@@ -89,6 +95,16 @@ color: white;
 #detailsArcDiagram{
   height: 100px;
   width: 600px;
-  border:1px solid black;
+
   text-align: center;
+}
+
+#chart{
+  border:1px solid black;
+}
+
+#heading{
+  text-align: center;
+  color: white;
+  margin: 10px;
 }

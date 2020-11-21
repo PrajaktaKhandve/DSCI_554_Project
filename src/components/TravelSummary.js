@@ -1,16 +1,16 @@
 
 import '../App/App.css';
-import React, {useRef, useEffect} from "react";
-import {select, scaleLinear, axisLeft, min, max } from "d3";
+import React, {useRef, useEffect, useState} from "react";
+import {select, scaleLinear, axisLeft, min, max  } from "d3";
 import data from '../data/barchartdata.json';
 
 function TravelSummary(props) {
   //console.log(props.month);
- 
-  const svgRef = useRef();
+ const svgRef = useRef();
 
   //function handleClick() {setMonth('February')};
 useEffect(() => {
+
   
   var bardata1 = data[props.region];
   //console.log(bardata);
@@ -21,7 +21,7 @@ useEffect(() => {
   var margin = {left: leftMargin, right: rightMargin, top: 10, bottom: 10};
   var barWidth = 30;  // Width of the bars
   var chartHeight = 200;  // Height of chart, from x-axis (ie. y=0)
-  var chartWidth =100+ margin.left + bardata1.length * barWidth + margin.right;
+  var chartWidth =50+ margin.left + bardata1.length * barWidth + margin.right;
 
   drawSafe(bardata1);
   drawEase(bardata1);
@@ -41,7 +41,7 @@ useEffect(() => {
     svg.append("text")
     .attr("x", 100)
     .attr("y", 100)
-    .text("How Easy to Travel?")
+    .text("Is Easy to Travel?")
     .attr("font-family", "sans-serif")
     .attr("font-size", "20px")
     .attr("fill", "white")
@@ -60,7 +60,7 @@ useEffect(() => {
 
   function question2(bardata1){
     var color = (d) => {
-        return d <0 ? "crimson" : "seagreen"
+        return d <0 ? "crimson" : "seagreen"//
     }
 
     var svg = select('#question2');
@@ -70,7 +70,7 @@ useEffect(() => {
     svg.append("text")
     .attr("x", 100)
     .attr("y", 100)
-    .text("How Safe to Travel?")
+    .text("Is Safe to Travel?")
     .attr("font-family", "sans-serif")
     .attr("font-size", "20px")
     .attr("fill", "white")
@@ -101,9 +101,15 @@ useEffect(() => {
 
     svg.selectAll("*").remove();
 
-    svg
+   /* svg
     .attr('height', chartHeight + 100)
     .attr('width', chartWidth)
+    .style('border', '1px solid')
+    .attr("transform", "translate(20 0)")*/
+
+    svg
+    .attr("preserveAspectRatio", "xMinYMin meet")
+    .attr("viewBox", "0 0 500 400")
     .style('border', '1px solid')
     .attr("transform", "translate(20 0)")
 
@@ -157,10 +163,17 @@ useEffect(() => {
 
   svg.selectAll("*").remove();
 
-  svg
+  /*svg
       .attr('height', chartHeight + 100)
       .attr('width', chartWidth)
-      .style('border', '1px solid');
+      .style('border', '1px solid');*/
+
+      
+    svg
+    .attr("preserveAspectRatio", "xMinYMin meet")
+    .attr("viewBox", "0 0 500 400")
+    .style('border', '1px solid')
+    .attr("transform", "translate(20 0)")
 
   svg
     .selectAll("rect")

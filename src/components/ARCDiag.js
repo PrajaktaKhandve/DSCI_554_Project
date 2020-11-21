@@ -1,5 +1,5 @@
 import '../App/App.css';
-import React, {useRef, useEffect} from "react";
+import React, {useRef, useEffect, useState} from "react";
 import {select, scaleOrdinal, scaleLinear, scalePoint, schemeSet3 } from "d3";
 import data from '../data/nodes.json';
 
@@ -7,6 +7,8 @@ import data from '../data/nodes.json';
 
 function ARCDiag(props) {
   //console.log(props.month);
+
+
  
   const svgRef = useRef();
 
@@ -126,7 +128,16 @@ var widths = scaleLinear()
 
       nodes
       .on('mouseover', function (i,d) {
-        document.getElementById("detailsArcDiagram").innerText= d.continent +" region with "+ d.covidcases+ " covidcases for the month of " + props.month;
+         var str = "Details\n";
+         str += d.continent +" region with "+ d.covidcases+ " covidcases for the month of " + props.month +"\n\n";
+         data[props.month].links.forEach( function(link){
+           if (link.source === d.continent){
+              str += link.source + " to " + link.destination +" has "+ link.count +" flights" + "\n";
+           }
+         }
+           
+         )
+         document.getElementById("detailsArcDiagram").innerText = str;
         nodes
           .style('opacity', .2)
           //console.log('d', d);
@@ -138,11 +149,12 @@ var widths = scaleLinear()
           .style('stroke', function (link_d) { return link_d.source === d.continent || link_d.destination === d.continent ? color(d.continent) : '#b8b8b8';})
           .style('stroke-opacity', function (link_d) { return link_d.source === d.continent || link_d.destination === d.continent ? 1 : .2;})
           .style('stroke-width', function (link_d) { return link_d.source === d.continent || link_d.destination === d.continent ? widths(link_d.count) : 1;})
-        
+
+         
         labels
           .style("font-size", function(label_d){ return label_d.continent === d.continent ? 16 : 2 } )
           .attr("y", function(label_d){ return label_d.continent === d.continent ? 10 : 0 } )
-  
+         
       })
       .on('mouseout', function (d) {
         nodes.style('opacity', 1)
@@ -160,8 +172,10 @@ var widths = scaleLinear()
     });
 
   return (
+    <div>
+  
     <svg id="acrDiag" ref={svgRef} ></svg>
-
+    </div>
   );
 }
 

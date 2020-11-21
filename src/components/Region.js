@@ -6,6 +6,7 @@ import ARCDiag from "./ARCDiag";
 import MultiLine from "./MultiLine";
 import TravelSummary from "./TravelSummary";
 import {DropdownButton, Dropdown} from 'react-bootstrap';
+import AnimationGraph from "./AnimationGraph";
 
 
 class  Region extends React.Component {
@@ -38,12 +39,19 @@ class  Region extends React.Component {
 
   return (
   <Container fluid>
+   <h2 id="heading">Region-wise analyis of Flights vs Corona</h2>
   <Row>
     <Col className="multiLineClass">
+   
       <MultiLine month={this.state.month}/>
     </Col>
     <Col >
-    <Row className="justify-content-md-center"> <DropdownButton
+    <p className ="title">
+            Arc Diagram
+    </p>
+    <Row className="justify-content-md-center"> 
+    
+    <DropdownButton
       alignRight
       title="Choose Month"
       id="dropdown-menu-align-right"
@@ -65,8 +73,13 @@ class  Region extends React.Component {
     <ARCDiag month={this.state.month}/>
     <p id="detailsArcDiagram">Details</p>
     </Row>
+    <Row className="justify-content-md-center">
+    </Row>
     </Col>
     <Col>
+    <p className ="title">
+            Bar Charts
+    </p>
     <Row className="justify-content-md-center"> <DropdownButton
       alignRight
       title="Where to travel?"
@@ -84,9 +97,10 @@ class  Region extends React.Component {
       <p id="regionTravel">North America</p>
       <TravelSummary region={this.state.region}/>
       </Row>
-                                            
-
+      
     </Col>
+    
+   
   </Row>
 </Container>
   );

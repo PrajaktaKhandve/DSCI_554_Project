@@ -54,8 +54,10 @@ function MultiLine(props) {
         .x(function(d) { return x(d.month); })
         .y(function(d) { return y(d.covid); });
 
-    svg.attr("width", 100+width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
+    //svg.attr("width", 100+width + margin.left + margin.right)
+    //.attr("height", height + margin.top + margin.bottom)
+    svg.attr("preserveAspectRatio", "xMinYMin meet")
+    .attr("viewBox", "0 0 500 400")
     .append("g")
         .attr("transform",
             "translate(" + margin.left + "," + margin.top + ")");
@@ -104,15 +106,54 @@ function MultiLine(props) {
     //}
 
     svg.append("text")
-        .attr("dx", function(d){return 200})
-        .attr("dy", function(d){return 200})
+        .attr("dx", function(d){return 160})
+        .attr("dy", function(d){return 300})
         .attr("fill","white")
-	    .text(db);
+        .style("font-size","20px")
+        .text(db);
+        
+
+        
+    svg.append("text")
+    .attr("transform", "translate(" + (width+3) + "," + y(data[db][data[db].length-1].covid)+10 + ")")
+    .attr("dy", ".35em")
+    .attr("text-anchor", "start")
+    .style("fill", "yellow")
+    .text("Covid");
+
+    svg.append("text")
+    .attr("transform", "translate(" + (width+3) + "," + y(data[db][data[db].length-1].departed)+10 + ")")
+    .attr("dy", ".35em")
+    .attr("text-anchor", "start")
+    .style("fill", "red")
+    .text("Departed");
+
+    svg.append("text")
+    .attr("transform", "translate(" + (width+80) + "," + y(data[db][data[db].length-1].arrived+20) + ")")
+    .attr("dy", ".35em")
+    .attr("text-anchor", "start")
+    .style("fill", "blue")
+    .text("Arrived");
+
+   
     }
+
+
+
+
+
+
+
+
+
+    
     });
     
         return (
         <div>
+        <p className ="title">
+            MultiLine
+        </p>
         <svg id="asia" ></svg>
         <svg id="northamerica" ></svg>  
         <svg id="southamerica" ></svg>  

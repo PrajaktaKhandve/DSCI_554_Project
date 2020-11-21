@@ -7,13 +7,35 @@ import { select } from 'd3-selection'
 class Barchart extends Component {
    constructor(props){
       super(props)
+      this.state = {
+         width: 0,
+         height: 0
+       };
       this.createBarChart = this.createBarChart.bind(this)
    }
+
+   getWidth(){
+      return this.chartRef.current.parentElement.offsetWidth;
+  }
+  getHeight(){
+      return this.chartRef.current.parentElement.offsetHeight;
+  }
+
    componentDidMount() {
+      let width = this.getWidth()
+        let height = this.getHeight();
+        this.setState({width: width, height: height}, ()=> {
+         this.createBarChart();
+        });
       this.createBarChart()
    }
    componentDidUpdate() {
-      this.createBarChart()
+      let width = this.getWidth()
+        let height = this.getHeight();
+        this.setState({width: width, height: height}, ()=> {
+         this.createBarChart();
+        });
+      
    }
    createBarChart() {
       const node = this.node
@@ -43,8 +65,7 @@ class Barchart extends Component {
       .attr('width', 25)
    }
 render() {
-      return <svg ref={node => this.node = node}
-      width={500} height={500}>
+      return <svg ref={node => this.node = node}>
       </svg>
    }
 }
