@@ -10,14 +10,21 @@ import Map from '../components/Map';
 import video from "../data/videoplayback.mkv";
 import './style.css';
 
-var __html = require('./document.js');
-var homepage = { __html: __html };
+var __html_homepage = require('./document.js');
+var homepage = { __html: __html_homepage };
+
+var __html_sanya = require('./sanya.js');
+var sanya = { __html: __html_sanya };
 
 const HomePage = () => (
   <div>
     <div dangerouslySetInnerHTML={homepage}/>
     <video src={video} autoPlay muted loop></video>
   </div>
+);
+
+const Sanya = () => (
+  <div dangerouslySetInnerHTML={sanya} />
 );
 
 function App() {
@@ -35,6 +42,9 @@ function App() {
           <Route path="/region">
             
             <Region />
+          </Route>
+          <Route path="/airports">
+            <Sanya />
           </Route>
         </Switch> 
       </div> 
