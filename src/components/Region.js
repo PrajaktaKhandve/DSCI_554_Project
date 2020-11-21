@@ -1,7 +1,9 @@
 import '../App/App.css';
 import React from "react";
 import {Row, Container, Col} from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
+// check this thing
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import ARCDiag from "./ARCDiag";
 import MultiLine from "./MultiLine";
 import TravelSummary from "./TravelSummary";

@@ -1,0 +1,60 @@
+.chart {
+    background-color: #fff;
+    width: 100%;
+}
+
+p {
+    font: 14px helvetica;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    stroke-width: 2px;
+    shape-rendering: crispEdges;
+}
+.ranking19 {
+    background-color: rgba(255, 255, 255, 0);
+    width: 50%;
+}
+.ranking20 {
+    background-color: rgba(255, 255, 255, 0);
+    width: 50%;
+}
+.slice_small {
+    stroke: rgb(0, 0, 0);
+    stroke-width: 5px;
+}
+.slice_medium {
+    stroke: black;
+    stroke-width: 5px;
+}
+.slice_large {
+    stroke: black;
+    stroke-width: 5px;
+}
+.slice_heliport {
+    stroke: black;
+    stroke-width: 5px;
+}
+
+#donut_small{
+    height: 50vh;
+    width: 50vw;
+}
+
+#donut_mediun{
+    height: 50vh;
+    width: 50vw;
+}
+
+#donut_large {
+    height: 50vh;
+    width: 50vw;
+}
+
+#donut_heliport {
+    height: 50vh;
+    width: 50vw;
+}

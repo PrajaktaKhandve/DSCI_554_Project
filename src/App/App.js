@@ -8,13 +8,14 @@ import './App.css';
 import Region from '../components/Region';
 import Map from '../components/Map';
 import video from "../data/videoplayback.mkv";
+import Sanya from "../components/SanyaDashboard";
 import './style.css';
 
 var __html_homepage = require('./document.js');
 var homepage = { __html: __html_homepage };
 
-var __html_sanya = require('./sanya.js');
-var sanya = { __html: __html_sanya };
+// var __html_sanya = require('./sanya.js');
+// var sanya = { __html: __html_sanya };
 
 const HomePage = () => (
   <div>
@@ -23,9 +24,9 @@ const HomePage = () => (
   </div>
 );
 
-const Sanya = () => (
-  <div dangerouslySetInnerHTML={sanya} />
-);
+// const Sanya = () => (
+//   <div dangerouslySetInnerHTML={sanya} />
+// );
 
 function App() {
   return (
