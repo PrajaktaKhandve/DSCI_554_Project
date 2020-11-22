@@ -12,9 +12,9 @@ function Donut(props) {
 
         // top 3 most active large airports
         function largeAirports() {
-            var w = 500,
+            var w = 400,
     h = 220,
-    r = 100,
+    r = 80,
     color = d3.scale.category20c();
  
     var data = [{"label":"Chicago O'Hare International Airport", "value":55765}, 
@@ -30,11 +30,11 @@ function Donut(props) {
         .attr("transform", "translate(" + 150 + "," + r * 1.1 + ")")
     
     var arc_large = d3.svg.arc()
-        .innerRadius(50)
+        .innerRadius(35)
         .outerRadius(r);
 
     var arcOver = d3.svg.arc()
-        .innerRadius(55)
+        .innerRadius(40)
         .outerRadius(r + 10);
     
     var pie = d3.layout.pie()
@@ -60,10 +60,10 @@ function Donut(props) {
         });
 
     var centerText3 = vis3.append("text")
-        .attr("dy", ".35em")
+        .attr("dy", ".2em")
         .style("text-anchor", "middle")
                 .style("stroke", "white")
-            .style("font-size", "15px")
+            .style("font-size", "11px")
 
     arcs.append("svg:path")
         .attr("fill", function(d, i) { return color(i); } )
@@ -75,9 +75,9 @@ function Donut(props) {
 
 
     return (
-        <div className="">
+       
             <svg id="donut_large"></svg>
-        </div>
+    
     )
 }   
 

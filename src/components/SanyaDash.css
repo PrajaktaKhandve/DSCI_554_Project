@@ -87,11 +87,24 @@ table{
     font-family: 'Times New Roman',
     Times,
     serif;
+    text-decoration: underline;
 
 }
 
 .port_align {
     padding-left: 7em;
+}
+
+.medium_align{
+    padding-left: 7em;
+}
+
+.small_align{
+    padding-left: 2em;
+}
+
+.large_align{
+    padding-left: 4em;
 }
 
 .small_airports_text{
@@ -100,10 +113,29 @@ table{
     font-family: 'Times New Roman',
     Times,
     serif;
+    text-decoration: underline;
+}
+
+.medium_airports_text{
+    padding-left: 6em;
+    font-size: medium;
+    font-family: 'Times New Roman',
+    Times,
+    serif;
+    text-decoration: underline;
+}
+
+.large_airports_text{
+    padding-left: 18em;
+    font-size: medium;
+    font-family: 'Times New Roman',
+    Times,
+    serif;
+    text-decoration: underline;
 }
 
 .most_active_donuts{
-    margin-top: 3em;
+    margin-top: 2em;
 }
 
 .stream_headline{

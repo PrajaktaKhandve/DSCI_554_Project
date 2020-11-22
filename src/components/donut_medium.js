@@ -11,9 +11,9 @@ function Donut(props) {
 
 // top 3 most active medium airports
         function mediumAirports() {
-            var w = 500,
+            var w = 400,
     h = 220,
-    r = 100,
+    r = 80,
     color = d3.scale.category20b();
  
     var data = [{"label":"Centennial Airport", "value":21191}, 
@@ -26,14 +26,14 @@ function Donut(props) {
         .attr("width", w)
         .attr("height", h)
         .append("svg:g")
-        .attr("transform", "translate(" + 150 + "," + r * 1.1 + ")")
+        .attr("transform", "translate(" + 150 + "," + r * 1 + ")")
     
     var arc_medium = d3.svg.arc()
-        .innerRadius(50)
+        .innerRadius(35)
         .outerRadius(r);
 
     var arcOver = d3.svg.arc()
-        .innerRadius(55)
+        .innerRadius(40)
         .outerRadius(r + 10);
     
     var pie = d3.layout.pie()
@@ -59,25 +59,20 @@ function Donut(props) {
         });
 
     var centerText2 = vis2.append("text")
-        .attr("dy", ".35em")
+        .attr("dy", ".2em")
         .style("text-anchor", "middle")
-                .style("fill", "white")
+                .style("stroke", "white")
             .style("font-size", "15px")
 
     arcs.append("svg:path")
-        .attr("fill", function(d, i) { return color(i+3); } )
+        .attr("fill", function(d, i) { return color(i); } )
         .attr("d", arc_medium);
-
-
         }
 
     });
 
-
     return (
-        <div className="">
             <svg id="donut_medium"></svg>
-        </div>
     )
 }   
 

@@ -136,16 +136,23 @@ class SanyaDashboard extends React.Component {
 
                   {/* clickable radial graph theme */}   
                   {/* 4 donuts */}
-                    
+            
                   <h3 className="most_active_donuts">Most active airports during COVID</h3>
           
             <span className="heliports_text">Heliports</span>
             <span className="small_airports_text">Small Airports</span>
 
             <span className="port_align"> <DonutPort /> </span>
-            <span className="small_align"> <DonutSmall /> </span>
-  
-            
+          <span className="small_align"> <DonutSmall /> </span>
+          
+          <br />
+          
+            <span className="medium_airports_text">Medium Airports</span>
+          <span className="large_airports_text">Large Airports</span>
+          
+            <span className="medium_align"> <DonutMedium /> </span>
+          <span className="large_align"> <DonutLarge /> </span>
+          
 
 
 </Col>

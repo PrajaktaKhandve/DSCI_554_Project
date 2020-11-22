@@ -13,7 +13,7 @@ function Donut(props) {
         function smallAirports() {
             var w = 500,
             h = 220,
-            r = 100,
+            r = 80,
             color = d3.scale.category20c();
 
     // processed separately - python
@@ -30,11 +30,11 @@ function Donut(props) {
         .attr("transform", "translate(" + 150 + "," + r * 1.1 + ")")
     
     var arc_small = d3.svg.arc()
-        .innerRadius(50)
+        .innerRadius(35)
         .outerRadius(r);
 
     var arcOver = d3.svg.arc()
-        .innerRadius(55)
+        .innerRadius(40)
         .outerRadius(r + 10);
     
     var pie = d3.layout.pie()
