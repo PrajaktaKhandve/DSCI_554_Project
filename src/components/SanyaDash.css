@@ -7,10 +7,16 @@
 
 h1, h4, h3{
     text-align: center;
+    font-family: 'Times New Roman',
+    Times,
+    serif;
 }
 
 h1{
     text-transform: uppercase;
+    font-family: 'Times New Roman',
+    Times,
+    serif;
 }
 
 .thh, .tdd{
@@ -19,18 +25,23 @@ h1{
     border: 1px solid white;
     width: auto;
     height: auto;
-    ;
+    font-family: 'Times New Roman',
+    Times,
+    serif;
 }
 
 th{
     color:aqua;
+    font-family: 'Times New Roman',
+    Times,
+    serif;
 }
 
 table{
     width: 50em;
     align-items: center;
     margin-left: 30px;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
 
 }
@@ -65,6 +76,9 @@ table{
     text-decoration: underline;
     color: azure;
     font-size: medium;
+    font-family: 'Times New Roman',
+    Times,
+    serif;
 }
 
 .adjust_medium{
@@ -81,4 +95,12 @@ table{
 
 .stream_headline{
     margin-top: 4em;
+    text-transform: capitalize;
+    font-family: 'Times New Roman',
+    Times,
+    serif;
+}
+
+.stream_graph{
+    margin-top: 30px;
 }

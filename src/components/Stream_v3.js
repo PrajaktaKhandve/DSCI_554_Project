@@ -37,16 +37,16 @@ var strokecolor = colorrange[0];
 
 var format = d3.time.format("%m/%d/%y");
 
-var margin = {top: 20, right: 70, bottom: 10, left: 70};
+var margin = {top: 20, right: 90, bottom: 60, left: 90};
 var width = document.body.clientWidth - margin.left - margin.right - 840;
-var height = 300;
+var height = 350;
 
 var tooltip = d3.select(".chart")
     .append("div")
     .style("position", "relative")
     .style("z-index", "1")
     .style("visibility", "visible")
-    .style("bottom", "60px")
+    .style("bottom", "5px")
     .style("left", '40%')
     .style("color", "black");
 

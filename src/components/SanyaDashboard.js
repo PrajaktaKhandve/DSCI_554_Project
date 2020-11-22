@@ -1,5 +1,4 @@
 import './SanyaDash.css';
-// import ReactDOM from 'react-dom';
 import React from "react";
 import {Row, Container, Col} from 'react-bootstrap';
 import {Button, Accordion, Card} from 'react-bootstrap';
@@ -12,9 +11,8 @@ import DonutPort from './donut_heliport';
 import StreamGraph from './Stream_v3';
 
 
-class  SanyaDashboard extends React.Component {
-
-
+class SanyaDashboard extends React.Component {
+  
   render(){
 
   return (
@@ -179,8 +177,11 @@ class  SanyaDashboard extends React.Component {
                
                <h3 className="stream_headline">Most busy airports during COVID - visualizing total number of flights</h3>
 
-                  {/* streamgraph */}
-                  <StreamGraph/>
+          {/* streamgraph */}
+          <div class="stream_graph">
+<StreamGraph/>
+          </div>
+                  
                
     </Col>
           </Row>
