@@ -1,4 +1,84 @@
-
 .main{
     color: white;
+    font-family: 'Times New Roman',
+    Times,
+    serif;
+}
+
+h1, h4, h3{
+    text-align: center;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+.thh, .tdd{
+    padding: 2px;
+    text-align: center;
+    border: 1px solid white;
+    width: auto;
+    height: auto;
+    ;
+}
+
+th{
+    color:aqua;
+}
+
+table{
+    width: 50em;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+.radials{
+    padding-left: 15em;
+}
+
+.radial19_text{
+    color: aqua;
+    font-size: large;
+    text-transform: capitalize;
+    border: 1px solid white;
+    text-align: center;
+    margin-left: 5em;
+}
+
+.radial20_text{
+    color: aqua;
+    font-size: large;
+    text-transform: capitalize;
+    border: 1px solid white;
+    text-align: center;
+    margin-left: 5em;
+}
+
+.th2{
+    text-align: left;
+    padding-left: 150px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    color: azure;
+    font-size: medium;
+}
+
+.adjust_medium{
+    padding-left: 80px;
+}
+
+.adjust_small{
+    
+}
+
+.most_active_donuts{
+    margin-top: 3em;
+}
+
+.stream_headline{
+    margin-top: 4em;
 }

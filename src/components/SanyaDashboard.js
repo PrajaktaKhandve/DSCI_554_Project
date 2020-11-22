@@ -1,4 +1,5 @@
 import './SanyaDash.css';
+// import ReactDOM from 'react-dom';
 import React from "react";
 import {Row, Container, Col} from 'react-bootstrap';
 import {Button, Accordion, Card} from 'react-bootstrap';
@@ -17,97 +18,100 @@ class  SanyaDashboard extends React.Component {
   render(){
 
   return (
-  <Container fluid className="main">
+      <Container fluid className="main">
+          <h1>Visualize the impact of COVID in 2020 on airports around the world</h1>
   <Row>
               <Col sm={5}>
-                  <h2>Top 10 most affected airlines [Percentage decrease from 2019 to 2020]</h2>
+                  <h3>Top 10 most affected airlines [Percentage decrease from 2019 to 2020]</h3>
 
                   {/* table */}
                   <table>
   <tr>
-    <th></th>
-    <th>Airline</th> 
-    <th>Percentage decrease</th>
-    <th>2019 count</th>
-    <th>2020 count</th>
+    <th className="thh"></th>
+    <th className="thh">Airline</th> 
+    <th className="thh">Percentage decrease</th>
+    <th className="thh">2019 count</th>
+    <th className="thh">2020 count</th>
   </tr>
   <tr>
-      <td>1</td>
-      <td>N829JP</td>
-    <td>99.892 %</td>
-    <td>933</td>
-    <td>1</td>
+      <td className="tdd">1</td>
+      <td  className="tdd">N829JP</td>
+    <td  className="tdd">99.892 %</td>
+    <td  className="tdd">933</td>
+    <td  className="tdd">1</td>
   </tr>
   <tr>
-      <td>2</td>
-      <td>KAP639</td>
-    <td>99.835 %</td>
-    <td>607</td>
-    <td>1</td>
+      <td  className="tdd">2</td>
+      <td  className="tdd">KAP639</td>
+    <td  className="tdd">99.835 %</td>
+    <td  className="tdd">607</td>
+    <td  className="tdd">1</td>
   </tr>
   <tr>
-      <td>3</td>
-      <td>NDU641</td>
-    <td>99.834 %</td>
-    <td>604</td>
-    <td>1</td>
+      <td  className="tdd">3</td>
+      <td  className="tdd">NDU641</td>
+    <td  className="tdd">99.834 %</td>
+    <td  className="tdd">604</td>
+    <td  className="tdd">1</td>
   </tr>
   <tr>
-      <td>4</td>
-      <td>N535WK</td>
-    <td>99.801 %</td>
-    <td>504</td>
-    <td>1</td>
+      <td  className="tdd">4</td>
+      <td  className="tdd">N535WK</td>
+    <td  className="tdd">99.801 %</td>
+    <td  className="tdd">504</td>
+    <td  className="tdd">1</td>
   </tr>
   <tr>
-      <td>5</td>
-      <td>UUD</td>
-    <td>99.797 %</td>
-    <td>494</td>
-    <td>1</td>
+      <td  className="tdd">5</td>
+      <td  className="tdd">UUD</td>
+    <td  className="tdd">99.797 %</td>
+    <td  className="tdd">494</td>
+    <td  className="tdd">1</td>
   </tr>
   <tr>
-      <td>6</td>
-      <td>HBTEC</td>
-    <td>99.750 %</td>
-    <td>807</td>
-    <td>2</td>
+      <td  className="tdd">6</td>
+      <td  className="tdd">HBTEC</td>
+    <td  className="tdd">99.750 %</td>
+    <td  className="tdd">807</td>
+    <td  className="tdd">2</td>
   </tr>
   <tr>
-      <td>7</td>
-      <td>ADSBTEST</td>
-    <td>99.746 %</td>
-    <td>395</td>
-    <td>1</td>
+      <td  className="tdd">7</td>
+      <td  className="tdd">ADSBTEST</td>
+    <td  className="tdd">99.746 %</td>
+    <td  className="tdd">395</td>
+    <td  className="tdd">1</td>
   </tr>
   <tr>
-      <td>8</td>
-      <td>N7673W</td>
-    <td>99.727 %</td>
-    <td>367</td>
-    <td>1</td>
+      <td  className="tdd">8</td>
+      <td  className="tdd">N7673W</td>
+    <td  className="tdd">99.727 %</td>
+    <td  className="tdd">367</td>
+    <td  className="tdd">1</td>
   </tr>
   <tr>
-      <td>9</td>
-      <td>RSCU521</td>
-    <td>99.722 %</td>
-    <td>361</td>
-    <td>1</td>
+      <td  className="tdd">9</td>
+      <td  className="tdd">RSCU521</td>
+    <td  className="tdd">99.722 %</td>
+    <td  className="tdd">361</td>
+    <td  className="tdd">1</td>
   </tr>
   <tr>
-      <td>10</td>
-      <td>ENY3779</td>
-    <td>99.650 %</td>
-    <td>286</td>
-    <td>1</td>
+      <td  className="tdd">10</td>
+      <td  className="tdd">ENY3779</td>
+    <td  className="tdd">99.650 %</td>
+    <td  className="tdd">286</td>
+    <td  className="tdd">1</td>
   </tr>
                   </table>
   
+    <div className="radials">
 
+                      
      <Accordion defaultActiveKey="0">
   <Card>
     <Card.Header>
-      <Accordion.Toggle as={Button} variant="link" eventKey="0">
+      <Accordion.Toggle as={Button} variant="link" eventKey="0" className="radial19_text">
         2019 airline frequency!
       </Accordion.Toggle>
     </Card.Header>
@@ -119,7 +123,7 @@ class  SanyaDashboard extends React.Component {
   </Card>
   <Card>
     <Card.Header>
-      <Accordion.Toggle as={Button} variant="link" eventKey="1">
+      <Accordion.Toggle as={Button} variant="link" eventKey="1" className="radial20_text">
         2020 airline frequency!
       </Accordion.Toggle>
     </Card.Header>
@@ -131,21 +135,23 @@ class  SanyaDashboard extends React.Component {
   </Card>
 </Accordion>
 
+                      </div>
+
                   {/* clickable radial graph theme */}   
                   {/* 4 donuts */}
                     
-                  <h2>Most active airports during COVID</h2>
+                  <h3 className="most_active_donuts">Most active airports during COVID</h3>
                   <table>
                       <thead>
                           <tr>
-                              <th>Small Airports</th>
-                              <th>Medium Airports</th>
+                              <th className="th2">Small Airports</th>
+                              <th className="th2">Medium Airports</th>
                           </tr>
                       </thead>
                       <tbody>
-                          <tr><td> <DonutSmall />
+                          <tr><td className="adjust_small"> <DonutSmall />
                           </td>
-                          <td> <DonutMedium />
+                          <td className="adjust_medium"> <DonutMedium />
                               </td>
                           </tr>
                       </tbody>
@@ -154,8 +160,8 @@ class  SanyaDashboard extends React.Component {
                   <table>
                       <thead>
                           <tr>
-                              <th>Large Airports</th>
-                              <th>Heliports</th>
+                              <th className="th2">Large Airports</th>
+                              <th className="th2">Heliports</th>
                           </tr>
                       </thead>
                       <tbody>
@@ -169,9 +175,9 @@ class  SanyaDashboard extends React.Component {
 
 
 </Col>
-              <Col sm={7}>Mapbox will come here
+              <Col sm={7}>
                
-               <h1>Most busy airports during COVID - visualizing total number of flights</h1>
+               <h3 className="stream_headline">Most busy airports during COVID - visualizing total number of flights</h3>
 
                   {/* streamgraph */}
                   <StreamGraph/>

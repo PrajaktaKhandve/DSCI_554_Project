@@ -11,7 +11,7 @@ function Donut(props) {
 
 // top 3 most active medium airports
         function mediumAirports() {
-            var w = 500,
+            var w = 300,
     h = 250,
     r = 100,
     color = d3.scale.category20b();
