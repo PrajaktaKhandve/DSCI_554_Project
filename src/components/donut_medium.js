@@ -11,8 +11,8 @@ function Donut(props) {
 
 // top 3 most active medium airports
         function mediumAirports() {
-            var w = 300,
-    h = 250,
+            var w = 500,
+    h = 220,
     r = 100,
     color = d3.scale.category20b();
  
@@ -61,7 +61,8 @@ function Donut(props) {
     var centerText2 = vis2.append("text")
         .attr("dy", ".35em")
         .style("text-anchor", "middle")
-        .style("stroke", "white")
+                .style("fill", "white")
+            .style("font-size", "15px")
 
     arcs.append("svg:path")
         .attr("fill", function(d, i) { return color(i+3); } )

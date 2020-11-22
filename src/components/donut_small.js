@@ -12,7 +12,7 @@ function Donut(props) {
     // top 3 small airports - that are artive [having max number of flights]
         function smallAirports() {
             var w = 500,
-            h = 250,
+            h = 220,
             r = 100,
             color = d3.scale.category20c();
 
@@ -61,9 +61,10 @@ function Donut(props) {
         });
 
     var centerText1 = vis1.append("text")
-        .attr("dy", ".35em")
+        .attr("dy", ".2em")
         .style("text-anchor", "middle")
         .style("stroke", "white")
+        .style("font-size", "15px")
 
     arcs.append("svg:path")
         .attr("fill", function(d, i) { return color(i); } )
@@ -73,9 +74,8 @@ function Donut(props) {
 
 
     return (
-        <div className="">
             <svg id="donut_small"></svg>
-        </div>
+    
     )
 }   
 

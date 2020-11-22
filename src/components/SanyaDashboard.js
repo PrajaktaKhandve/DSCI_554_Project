@@ -105,7 +105,6 @@ class SanyaDashboard extends React.Component {
   
     <div className="radials">
 
-                      
      <Accordion defaultActiveKey="0">
   <Card>
     <Card.Header>
@@ -139,37 +138,14 @@ class SanyaDashboard extends React.Component {
                   {/* 4 donuts */}
                     
                   <h3 className="most_active_donuts">Most active airports during COVID</h3>
-                  <table>
-                      <thead>
-                          <tr>
-                              <th className="th2">Small Airports</th>
-                              <th className="th2">Medium Airports</th>
-                          </tr>
-                      </thead>
-                      <tbody>
-                          <tr><td className="adjust_small"> <DonutSmall />
-                          </td>
-                          <td className="adjust_medium"> <DonutMedium />
-                              </td>
-                          </tr>
-                      </tbody>
-                  </table>
-                  
-                  <table>
-                      <thead>
-                          <tr>
-                              <th className="th2">Large Airports</th>
-                              <th className="th2">Heliports</th>
-                          </tr>
-                      </thead>
-                      <tbody>
-                          <tr><td> <DonutLarge />
-                          </td>
-                          <td> <DonutPort />
-                              </td>
-                          </tr>
-                      </tbody>
-                </table>
+          
+            <span className="heliports_text">Heliports</span>
+            <span className="small_airports_text">Small Airports</span>
+
+            <span className="port_align"> <DonutPort /> </span>
+            <span className="small_align"> <DonutSmall /> </span>
+  
+            
 
 
 </Col>

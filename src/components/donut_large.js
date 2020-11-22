@@ -13,7 +13,7 @@ function Donut(props) {
         // top 3 most active large airports
         function largeAirports() {
             var w = 500,
-    h = 250,
+    h = 220,
     r = 100,
     color = d3.scale.category20c();
  
@@ -62,7 +62,8 @@ function Donut(props) {
     var centerText3 = vis3.append("text")
         .attr("dy", ".35em")
         .style("text-anchor", "middle")
-        .style("stroke", "white")
+                .style("stroke", "white")
+            .style("font-size", "15px")
 
     arcs.append("svg:path")
         .attr("fill", function(d, i) { return color(i); } )

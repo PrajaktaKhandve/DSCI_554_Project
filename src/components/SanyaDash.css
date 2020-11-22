@@ -81,12 +81,25 @@ table{
     serif;
 }
 
-.adjust_medium{
-    padding-left: 80px;
+.heliports_text{
+    padding-left: 8em;
+    font-size: medium;
+    font-family: 'Times New Roman',
+    Times,
+    serif;
+
 }
 
-.adjust_small{
-    
+.port_align {
+    padding-left: 7em;
+}
+
+.small_airports_text{
+    padding-left: 20em;
+    font-size: medium;
+    font-family: 'Times New Roman',
+    Times,
+    serif;
 }
 
 .most_active_donuts{

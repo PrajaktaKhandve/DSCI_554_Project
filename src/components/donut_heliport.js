@@ -13,8 +13,8 @@ function Donut(props) {
 // top 3 most active heliports
         function heliports(){
 
-    var w = 500,
-    h = 250,
+    var w = 400,
+    h = 220,
     r = 100,
     color = d3.scale.category20b();
     
@@ -50,7 +50,7 @@ function Donut(props) {
             d3.select(this).select("path").transition()
             .duration(100)
             .attr("d", arcOver);
-            centerText4.text( d3.select(this).datum().data.label + " - " +
+            centerText4.text( d3.select(this).datum().data.label  +" - " +
                 d3.select(this).datum().data.value );
         })
         .on("mouseout", function(d) {
@@ -61,9 +61,10 @@ function Donut(props) {
         });
 
     var centerText4 = vis4.append("text")
-        .attr("dy", ".35em")
+        .attr("dy", ".2em")
         .style("text-anchor", "middle")
-        .style("stroke", "white")
+                .style("stroke", "white")
+            .style("font-size", "15px")
 
     arcs.append("svg:path")
         .attr("fill", function(d, i) { return color(i); } )
@@ -75,9 +76,9 @@ function Donut(props) {
 
 
     return (
-        <div className="">
+        
             <svg id="donut_heliport"></svg> 
-        </div>
+        
     )
 }   
 
