@@ -137,7 +137,7 @@ class SanyaDashboard extends React.Component {
                   {/* clickable radial graph theme */}   
                   {/* 4 donuts */}
             
-                  <h3 className="most_active_donuts">Most active airports during COVID</h3>
+                  <h3 className="most_active_donuts">Most active airports during COVID drop [April, May and June]</h3>
           
             <span className="heliports_text">Heliports</span>
             <span className="small_airports_text">Small Airports</span>
@@ -165,7 +165,46 @@ class SanyaDashboard extends React.Component {
 <StreamGraph/>
           </div>
                   
-               
+                  <div className="kpi1">
+
+  <div>
+    <div className="kpi">
+      <p className="kpi__value">328,049 <small></small> </p>
+      <p className="kpi__description">flights at Chicago O'hare International Airport in</p>
+      <p>2020</p>
+
+      <p className="kpi__value">349,946<small></small> </p>
+      <p className="kpi__description">flights at Chicago O'hare International Airport in</p>
+      <p>2019</p>
+    </div>
+  </div>
+
+  <div >
+    <div className="kpi">
+      <p className="kpi__value">264,551 <small></small> </p>
+      <p className="kpi__description">flights at Dallas Fort Worth International Airport in</p>
+      <p>2020</p>
+
+      <p className="kpi__value">272,467<small></small> </p>
+      <p className="kpi__description">flights at Dallas Fort Worth International Airport in</p>
+      <p>2019</p>
+    </div>
+  </div>
+  
+  <div >
+    <div className="kpi">
+      <p className="kpi__value">225,147 <small></small> </p>
+      <p className="kpi__description">flights at Los Angeles International Airport in</p>
+      <p>2020</p>
+
+      <p className="kpi__value">229,783<small></small> </p>
+      <p className="kpi__description">flights at Los Angeles International Airport in</p>
+      <p>2019</p>
+    </div>
+  </div>
+  
+          </div>
+          
     </Col>
           </Row>
 </Container>
